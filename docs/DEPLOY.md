@@ -2,7 +2,7 @@
 
 ## 隐私策略
 
-- GitHub 仓库使用 **Private**，不填 Description、Homepage、Topics。
+- GitHub 仓库为 **Public**，不填 Description、Homepage、Topics，降低被检索到的概率。
 - 前端页面加了 `noindex,nofollow`，`robots.txt` 禁止抓取。
 - 临时分享用 Cloudflare Quick Tunnel 的随机域名，不公开、不提交到仓库。
 - `release/` 下的演示包不进入 GitHub（`.gitignore` 已排除）。

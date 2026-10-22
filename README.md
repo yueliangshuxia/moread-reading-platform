@@ -56,7 +56,7 @@ bash tools/build_demo_package.sh
 
 ## GitHub 与部署
 
-- 仓库使用 **Private**，不填写描述、主页和 Topics，避免被搜索到。
+- 仓库为 **Public**，不填写描述、主页和 Topics，降低被检索到的概率。
 - 前端已加 `noindex,nofollow`，`robots.txt` 禁止抓取。
 - `release/` 下的演示包不上传。
 - 临时分享、Render、Railway 的步骤见 `docs/DEPLOY.md`。

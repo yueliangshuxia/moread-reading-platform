@@ -1,0 +1,5962 @@
+{
+  "categories": [
+    {
+      "id": "classic",
+      "name": "文学经典",
+      "mark": "文",
+      "description": "经过时间筛选的叙事与语言",
+      "sort": 1
+    },
+    {
+      "id": "contemporary",
+      "name": "当代小说",
+      "mark": "今",
+      "description": "此刻正在发生的写作",
+      "sort": 2
+    },
+    {
+      "id": "prose",
+      "name": "诗歌散文",
+      "mark": "诗",
+      "description": "短章、韵律与日常观察",
+      "sort": 3
+    },
+    {
+      "id": "humanities",
+      "name": "人文社科",
+      "mark": "思",
+      "description": "理解世界与自身的框架",
+      "sort": 4
+    },
+    {
+      "id": "growth",
+      "name": "心理成长",
+      "mark": "心",
+      "description": "与自己相处的练习",
+      "sort": 5
+    },
+    {
+      "id": "biography",
+      "name": "传记纪实",
+      "mark": "传",
+      "description": "他人的一生，自己的镜子",
+      "sort": 6
+    },
+    {
+      "id": "scifi",
+      "name": "科幻奇幻",
+      "mark": "幻",
+      "description": "另一种可能的世界",
+      "sort": 7
+    },
+    {
+      "id": "life",
+      "name": "艺术生活",
+      "mark": "艺",
+      "description": "把日子过成作品",
+      "sort": 8
+    }
+  ],
+  "books": [
+    {
+      "id": "zhaohuaxishi",
+      "title": "朝花夕拾",
+      "author": "鲁迅",
+      "categoryId": "classic",
+      "tags": [
+        "回忆",
+        "散文",
+        "现代文学"
+      ],
+      "rating": 9.2,
+      "readers": 18420,
+      "words": "8.6 万",
+      "publishedYear": 1926,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": true,
+      "listed": true,
+      "coverTheme": "bottle",
+      "coverPattern": "letter",
+      "blurb": "鲁迅唯一一部回忆性散文集，在旧事重提里保存少年时代的温度与锋芒。",
+      "intro": "从百草园的虫鸣到三味书屋的戒尺，从长妈妈买到《山海经》的惊喜到藤野先生的讲义，鲁迅把童年与青年时代的碎片一一拾起。文字温和，锋芒仍在：他写的是自己的来路，也是一代人如何长大的证词。",
+      "authorBio": "鲁迅（1881—1936），原名周树人，中国现代文学的奠基人。小说、散文、杂文皆成高峰。",
+      "reason": "你最近在读鲁迅，且对散文类作品的完读率较高",
+      "scores": {
+        "content": 0.46,
+        "cf": 0.28,
+        "popularity": 0.17,
+        "freshness": 0.09
+      }
+    },
+    {
+      "id": "nahan",
+      "title": "呐喊",
+      "author": "鲁迅",
+      "categoryId": "classic",
+      "tags": [
+        "小说",
+        "启蒙",
+        "现代文学"
+      ],
+      "rating": 9.4,
+      "readers": 21340,
+      "words": "9.8 万",
+      "publishedYear": 1923,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": true,
+      "listed": true,
+      "coverTheme": "oxblood",
+      "coverPattern": "rules",
+      "blurb": "中国现代小说的开端，十五篇作品写尽沉默与呼喊。",
+      "intro": "《狂人日记》撕开礼教的帷幕，《孔乙己》写尽一个读书人的窘迫，《故乡》留下那轮金黄的圆月。鲁迅以短篇小说的形式，为沉默的国民造像，也为后来者开辟了道路。",
+      "authorBio": "鲁迅（1881—1936），中国现代文学的奠基人，代表作有《呐喊》《彷徨》《朝花夕拾》等。",
+      "reason": "与你读过的《朝花夕拾》主题相近，且被相似读者反复重读",
+      "scores": {
+        "content": 0.51,
+        "cf": 0.24,
+        "popularity": 0.16,
+        "freshness": 0.09
+      }
+    },
+    {
+      "id": "luotuoxiangzi",
+      "title": "骆驼祥子",
+      "author": "老舍",
+      "categoryId": "classic",
+      "tags": [
+        "小说",
+        "城市",
+        "命运"
+      ],
+      "rating": 9.1,
+      "readers": 16780,
+      "words": "14.2 万",
+      "publishedYear": 1936,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "mustard",
+      "coverPattern": "grid",
+      "blurb": "一个拉车人的三次买车梦，照见旧城里个人奋斗的尽头。",
+      "intro": "祥子从乡下来到北平，最大的愿望是拥有一辆自己的车。他勤恳、强壮、相信力气可以换来体面。可一次次意外把生活推回原点，也把一个老实人慢慢磨成了另一个人。",
+      "authorBio": "老舍（1899—1966），原名舒庆春，北京人，代表作有《骆驼祥子》《四世同堂》《茶馆》。",
+      "reason": "与你书架中的现实主义小说相似度较高",
+      "scores": {
+        "content": 0.39,
+        "cf": 0.33,
+        "popularity": 0.19,
+        "freshness": 0.09
+      }
+    },
+    {
+      "id": "hulanhezhuan",
+      "title": "呼兰河传",
+      "author": "萧红",
+      "categoryId": "classic",
+      "tags": [
+        "小说",
+        "故乡",
+        "女性"
+      ],
+      "rating": 9.3,
+      "readers": 15260,
+      "words": "12.1 万",
+      "publishedYear": 1940,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": true,
+      "listed": true,
+      "coverTheme": "paper",
+      "coverPattern": "arch",
+      "blurb": "一条北方小城的河，一座荒凉的院子，和一群认真活着的人。",
+      "intro": "呼兰河的小城冬天很长，人们把日子过得缓慢而结实。萧红写祖父的后花园、写跳大神、写小团圆媳妇，也写自己回不去的童年。它不像小说，更像一个人站在很远的地方，回头望故乡。",
+      "authorBio": "萧红（1911—1942），黑龙江呼兰人，代表作有《呼兰河传》《生死场》。",
+      "reason": "本周共读书目，且与你偏爱的女性写作高度相关",
+      "scores": {
+        "content": 0.44,
+        "cf": 0.27,
+        "popularity": 0.18,
+        "freshness": 0.11
+      }
+    },
+    {
+      "id": "jiuwairen",
+      "title": "局外人",
+      "author": "加缪",
+      "categoryId": "classic",
+      "tags": [
+        "小说",
+        "存在主义",
+        "荒诞"
+      ],
+      "rating": 9.2,
+      "readers": 14120,
+      "words": "6.4 万",
+      "publishedYear": 1942,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "ink",
+      "coverPattern": "rings",
+      "blurb": "一个人因为没有在葬礼上哭泣，被世界判了死刑。",
+      "intro": "默尔索在母亲去世后照常游泳、看喜剧电影，又在海滩上开枪杀人。审判他的不是那颗子弹，而是他不肯表演的悲伤。加缪用冷静的句子，写出人与世界之间那道无法弥合的距离。",
+      "authorBio": "阿尔贝·加缪（1913—1960），法国作家、哲学家，1957 年诺贝尔文学奖得主。",
+      "reason": "与你在读的《月亮与六便士》共享存在主义主题",
+      "scores": {
+        "content": 0.36,
+        "cf": 0.35,
+        "popularity": 0.17,
+        "freshness": 0.12
+      }
+    },
+    {
+      "id": "laorenyuhai",
+      "title": "老人与海",
+      "author": "海明威",
+      "categoryId": "classic",
+      "tags": [
+        "小说",
+        "勇气",
+        "海洋"
+      ],
+      "rating": 9,
+      "readers": 19430,
+      "words": "5.2 万",
+      "publishedYear": 1952,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "navy",
+      "coverPattern": "bands",
+      "blurb": "一个老人、一条大马林鱼，和一场注定失去的搏斗。",
+      "intro": "圣地亚哥八十四天没有捕到鱼。第八十五天，他独自出海，钓到一条比船还长的马林鱼。海明威用极简的语言写人与自然的较量，也写一个人如何在失败中保住尊严。",
+      "authorBio": "欧内斯特·海明威（1899—1961），美国作家，1954 年诺贝尔文学奖得主。",
+      "reason": "读完《局外人》的读者中，有 38% 接着读了这本书",
+      "scores": {
+        "content": 0.32,
+        "cf": 0.38,
+        "popularity": 0.2,
+        "freshness": 0.1
+      }
+    },
+    {
+      "id": "yueliangliubianshi",
+      "title": "月亮与六便士",
+      "author": "毛姆",
+      "categoryId": "classic",
+      "tags": [
+        "小说",
+        "理想",
+        "艺术"
+      ],
+      "rating": 9.3,
+      "readers": 22160,
+      "words": "18.6 万",
+      "publishedYear": 1919,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "plum",
+      "coverPattern": "letter",
+      "blurb": "满地都是六便士，他却抬头看见了月亮。",
+      "intro": "证券经纪人思特里克兰德突然抛下家庭与体面生活，去巴黎学画。他粗鲁、自私、穷困，却像被某种东西攫住一样非画不可。毛姆借一个极端的人，追问艺术、欲望与自由的代价。",
+      "authorBio": "威廉·萨默塞特·毛姆（1874—1965），英国小说家、剧作家，代表作有《人性的枷锁》《月亮与六便士》。",
+      "reason": "你收藏过 3 本关于艺术与理想的小说",
+      "scores": {
+        "content": 0.33,
+        "cf": 0.37,
+        "popularity": 0.2,
+        "freshness": 0.1
+      }
+    },
+    {
+      "id": "shanhaizhijian",
+      "title": "山海之间",
+      "author": "林见鹿",
+      "categoryId": "contemporary",
+      "tags": [
+        "原创",
+        "成长",
+        "山海"
+      ],
+      "rating": 8.6,
+      "readers": 3240,
+      "words": "21.4 万",
+      "publishedYear": 2024,
+      "status": "连载",
+      "free": false,
+      "original": true,
+      "featured": true,
+      "listed": true,
+      "coverTheme": "oxblood",
+      "coverPattern": "letter",
+      "blurb": "一个沿海小镇的青年回到故乡，在拆迁与潮汐之间重新认识父亲。",
+      "intro": "阿岸离开岚屿七年，带着一身城市里的疲惫回来。父亲还在修那条永远修不完的船，小镇的地皮已经被画上了新的红线。他要处理的是一栋老屋，却意外翻出父亲年轻时写给母亲的一沓信。",
+      "authorBio": "林见鹿，站内原创作者，写作关注沿海小城与代际关系。",
+      "reason": "站内原创 · 与你关注的“故乡与代际”主题匹配",
+      "scores": {
+        "content": 0.41,
+        "cf": 0.22,
+        "popularity": 0.14,
+        "freshness": 0.23
+      }
+    },
+    {
+      "id": "changyejiangjin",
+      "title": "长夜将尽",
+      "author": "陈默",
+      "categoryId": "contemporary",
+      "tags": [
+        "原创",
+        "悬疑",
+        "小镇"
+      ],
+      "rating": 8.7,
+      "readers": 2860,
+      "words": "24.8 万",
+      "publishedYear": 2023,
+      "status": "连载",
+      "free": false,
+      "original": true,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "ink",
+      "coverPattern": "grid",
+      "blurb": "二十年前的失踪案，在停电的夜里重新亮起一盏灯。",
+      "intro": "小镇唯一的路灯坏了二十年，没人去修。直到一场持续七天的停电，让所有人重新想起那个晚上。记者沈岚回到家乡调查旧案，发现每个熟人都在守护同一个秘密。",
+      "authorBio": "陈默，站内原创作者，擅长小镇悬疑与多视角叙事。",
+      "reason": "你最近追更的悬疑作品相似度较高",
+      "scores": {
+        "content": 0.34,
+        "cf": 0.26,
+        "popularity": 0.15,
+        "freshness": 0.25
+      }
+    },
+    {
+      "id": "nanfangyoujiamu",
+      "title": "南方有嘉木",
+      "author": "苏禾",
+      "categoryId": "contemporary",
+      "tags": [
+        "原创",
+        "家族",
+        "茶"
+      ],
+      "rating": 8.4,
+      "readers": 1980,
+      "words": "19.2 万",
+      "publishedYear": 2025,
+      "status": "完结",
+      "free": false,
+      "original": true,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "bottle",
+      "coverPattern": "arch",
+      "blurb": "一座茶山、三代女性，和一份没有写进族谱的遗嘱。",
+      "intro": "外婆去世后，留在城里的三姐妹回到南方茶山。老宅要卖，茶园要分，母亲留下的那只铁盒里却只有一包陈茶和一张手绘的山地图。她们沿着地图走了一圈，才明白母亲真正想留下的是什么。",
+      "authorBio": "苏禾，站内原创作者，作品多写女性家族史与南方风物。",
+      "reason": "站内新作 · 与你收藏的家族叙事相似",
+      "scores": {
+        "content": 0.38,
+        "cf": 0.2,
+        "popularity": 0.12,
+        "freshness": 0.3
+      }
+    },
+    {
+      "id": "renjiancihua",
+      "title": "人间词话",
+      "author": "王国维",
+      "categoryId": "prose",
+      "tags": [
+        "词学",
+        "美学",
+        "文论"
+      ],
+      "rating": 9.5,
+      "readers": 12680,
+      "words": "4.8 万",
+      "publishedYear": 1908,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "paper",
+      "coverPattern": "rules",
+      "blurb": "以“境界”论词，一部短小却影响深远的中国美学经典。",
+      "intro": "王国维以“境界”为核心，重新评价五代、北宋以来的词人。他谈有我之境与无我之境，谈隔与不隔，也谈古今成大事业、大学问者必经的三种境界。短短数十则，几乎每一则都值得停下来想一想。",
+      "authorBio": "王国维（1877—1927），近代学者、美学家，著有《人间词话》《宋元戏曲考》等。",
+      "reason": "你对“如何读一首诗”的兴趣高于 82% 的读者",
+      "scores": {
+        "content": 0.48,
+        "cf": 0.21,
+        "popularity": 0.16,
+        "freshness": 0.15
+      }
+    },
+    {
+      "id": "fushengliuji",
+      "title": "浮生六记",
+      "author": "沈复",
+      "categoryId": "prose",
+      "tags": [
+        "散文",
+        "生活",
+        "爱情"
+      ],
+      "rating": 9,
+      "readers": 14320,
+      "words": "7.2 万",
+      "publishedYear": 1808,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "mustard",
+      "coverPattern": "letter",
+      "blurb": "清代文人的日常与深情，一部关于生活本身的回忆录。",
+      "intro": "沈复记与妻子芸娘的相处，记插花、烹茶、游赏、拮据，也记生离死别。没有宏大叙事，只有细碎的欢喜与哀愁。林语堂曾说，芸娘是中国文学中最可爱的女人。",
+      "authorBio": "沈复（1763—约1832），字三白，清代文学家，《浮生六记》为其自传体散文。",
+      "reason": "与你在读的《朝花夕拾》同属回忆性散文",
+      "scores": {
+        "content": 0.4,
+        "cf": 0.26,
+        "popularity": 0.15,
+        "freshness": 0.19
+      }
+    },
+    {
+      "id": "zhimodeshi",
+      "title": "志摩的诗",
+      "author": "徐志摩",
+      "categoryId": "prose",
+      "tags": [
+        "诗歌",
+        "新月派",
+        "爱情"
+      ],
+      "rating": 8.7,
+      "readers": 9680,
+      "words": "3.6 万",
+      "publishedYear": 1925,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "navy",
+      "coverPattern": "rings",
+      "blurb": "“轻轻的我走了”，新月派最明亮也最忧伤的声音。",
+      "intro": "徐志摩的诗里有康桥的水、伦敦的雾、爱而不得的惆怅，也有对自由与美的执拗。他写得很轻，却常常落在很重的地方。",
+      "authorBio": "徐志摩（1897—1931），新月派代表诗人，代表作有《再别康桥》《翡冷翠的一夜》。",
+      "reason": "你最近摘录过 2 首新月派诗歌",
+      "scores": {
+        "content": 0.31,
+        "cf": 0.29,
+        "popularity": 0.17,
+        "freshness": 0.23
+      }
+    },
+    {
+      "id": "feiniaoji",
+      "title": "飞鸟集",
+      "author": "泰戈尔",
+      "categoryId": "prose",
+      "tags": [
+        "诗歌",
+        "哲思",
+        "自然"
+      ],
+      "rating": 8.8,
+      "readers": 17240,
+      "words": "2.8 万",
+      "publishedYear": 1916,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "paper",
+      "coverPattern": "letter",
+      "blurb": "三百余首短诗，像鸟掠过天空时留下的句子。",
+      "intro": "“生如夏花之绚烂，死如秋叶之静美。”泰戈尔用最轻的句子谈神、自然、爱与死亡。它们不适合一口气读完，适合在清晨或睡前翻开任意一页。",
+      "authorBio": "拉宾德拉纳特·泰戈尔（1861—1941），印度诗人、哲学家，1913 年诺贝尔文学奖得主。",
+      "reason": "适合你近期的短篇阅读节奏（单次 10—15 分钟）",
+      "scores": {
+        "content": 0.29,
+        "cf": 0.31,
+        "popularity": 0.18,
+        "freshness": 0.22
+      }
+    },
+    {
+      "id": "chensilu",
+      "title": "沉思录",
+      "author": "马可·奥勒留",
+      "categoryId": "humanities",
+      "tags": [
+        "哲学",
+        "斯多葛",
+        "自省"
+      ],
+      "rating": 8.8,
+      "readers": 11360,
+      "words": "11.4 万",
+      "publishedYear": 180,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "slate",
+      "coverPattern": "rules",
+      "blurb": "一位罗马皇帝写给自己的十二卷札记。",
+      "intro": "马可·奥勒留在战事与政务之间，反复提醒自己：能控制的只有判断与行动。他谈死亡、名誉、愤怒与责任，语气并不高高在上，更像一个人在深夜里一遍遍劝住自己。",
+      "authorBio": "马可·奥勒留（121—180），罗马帝国皇帝，斯多葛派哲学代表人物。",
+      "reason": "你连续 12 天在深夜阅读，匹配“睡前短读”偏好",
+      "scores": {
+        "content": 0.35,
+        "cf": 0.3,
+        "popularity": 0.16,
+        "freshness": 0.19
+      }
+    },
+    {
+      "id": "kunchongji",
+      "title": "昆虫记",
+      "author": "法布尔",
+      "categoryId": "humanities",
+      "tags": [
+        "科普",
+        "自然",
+        "观察"
+      ],
+      "rating": 9.2,
+      "readers": 13780,
+      "words": "32.6 万",
+      "publishedYear": 1879,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "bottle",
+      "coverPattern": "grid",
+      "blurb": "一个人趴在地上看虫子，看了几十年。",
+      "intro": "法布尔用文学家的耐心和科学家的眼睛，记录蝉、螳螂、蜘蛛、蜣螂的生活。他不急着下结论，只是看，反复地看。读完之后，你会重新注意到脚边那个忙碌的世界。",
+      "authorBio": "让-亨利·法布尔（1823—1915），法国昆虫学家、文学家，被誉为“昆虫界的荷马”。",
+      "reason": "你收藏过自然观察类作品，且偏爱可碎片阅读的长篇",
+      "scores": {
+        "content": 0.33,
+        "cf": 0.27,
+        "popularity": 0.18,
+        "freshness": 0.22
+      }
+    },
+    {
+      "id": "mengxibitan",
+      "title": "梦溪笔谈",
+      "author": "沈括",
+      "categoryId": "humanities",
+      "tags": [
+        "博物",
+        "科技史",
+        "宋代"
+      ],
+      "rating": 9,
+      "readers": 6420,
+      "words": "18.2 万",
+      "publishedYear": 1088,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "slate",
+      "coverPattern": "letter",
+      "blurb": "北宋的“百科笔记”，从活字印刷到地质成因都有记录。",
+      "intro": "沈括把一生见闻分门别类地记下来：天文、历法、地理、医药、音乐、书画、器物。它不像一部正经的专著，更像一个好奇心极强的人留下的工作笔记。",
+      "authorBio": "沈括（1031—1095），北宋科学家、政治家，《梦溪笔谈》为其晚年所著。",
+      "reason": "你对“博物与科技史”标签的点击率较高",
+      "scores": {
+        "content": 0.3,
+        "cf": 0.24,
+        "popularity": 0.14,
+        "freshness": 0.32
+      }
+    },
+    {
+      "id": "shishuoxinyu",
+      "title": "世说新语",
+      "author": "刘义庆",
+      "categoryId": "humanities",
+      "tags": [
+        "笔记",
+        "人物",
+        "魏晋"
+      ],
+      "rating": 9.2,
+      "readers": 10540,
+      "words": "9.4 万",
+      "publishedYear": 430,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "ink",
+      "coverPattern": "rules",
+      "blurb": "魏晋名士的言行碎片，一部关于风度与性情的笔记。",
+      "intro": "三言两语写一个人：有人雪夜访友，到了门口却转身回去；有人见路边李子苦，偏要尝一口。刘义庆不评价，只记录。千百年后读来，仍觉得那些人活得有声有色。",
+      "authorBio": "刘义庆（403—444），南朝宋宗室、文学家，组织门客编撰《世说新语》。",
+      "reason": "与你在读的《人间词话》同属中国古典文论谱系",
+      "scores": {
+        "content": 0.37,
+        "cf": 0.25,
+        "popularity": 0.15,
+        "freshness": 0.23
+      }
+    },
+    {
+      "id": "xishuda",
+      "title": "悉达多",
+      "author": "赫尔曼·黑塞",
+      "categoryId": "growth",
+      "tags": [
+        "小说",
+        "成长",
+        "东方哲思"
+      ],
+      "rating": 9.1,
+      "readers": 15860,
+      "words": "8.8 万",
+      "publishedYear": 1922,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "bottle",
+      "coverPattern": "rings",
+      "blurb": "一个婆罗门青年离开家门，去亲身体验世界，而不是只听说它。",
+      "intro": "悉达多听过所有教诲，却仍觉得知识可以传授，智慧不能。他走进市井，经历爱欲、财富与失去，最后在河边学会倾听。黑塞写的是一个人的求道，也是每个人都要走的路。",
+      "authorBio": "赫尔曼·黑塞（1877—1962），德国作家，1946 年诺贝尔文学奖得主。",
+      "reason": "你最近标记了 4 条关于“自我成长”的笔记",
+      "scores": {
+        "content": 0.4,
+        "cf": 0.28,
+        "popularity": 0.17,
+        "freshness": 0.15
+      }
+    },
+    {
+      "id": "caigentan",
+      "title": "菜根谭",
+      "author": "洪应明",
+      "categoryId": "growth",
+      "tags": [
+        "处世",
+        "格言",
+        "修养"
+      ],
+      "rating": 8.9,
+      "readers": 8920,
+      "words": "5.6 万",
+      "publishedYear": 1590,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "paper",
+      "coverPattern": "bands",
+      "blurb": "嚼得菜根，百事可做。一本写给普通人的处世笔记。",
+      "intro": "洪应明把儒、释、道的修养工夫写成短句：如何在顺境中收敛，在逆境中安顿，在人际里留余地。它不提供标准答案，只提供一些可以反复咀嚼的判断。",
+      "authorBio": "洪应明，字自诚，明代学者，生平事迹留有争议，《菜根谭》为其代表作。",
+      "reason": "与你近期的短读习惯匹配，单则 1—2 分钟",
+      "scores": {
+        "content": 0.28,
+        "cf": 0.22,
+        "popularity": 0.16,
+        "freshness": 0.34
+      }
+    },
+    {
+      "id": "fankelinzizhuan",
+      "title": "富兰克林自传",
+      "author": "本杰明·富兰克林",
+      "categoryId": "biography",
+      "tags": [
+        "传记",
+        "自律",
+        "美国"
+      ],
+      "rating": 8.6,
+      "readers": 7360,
+      "words": "16.8 万",
+      "publishedYear": 1791,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "navy",
+      "coverPattern": "letter",
+      "blurb": "一个印刷学徒如何把自己训练成科学家、政治家与作家。",
+      "intro": "富兰克林在自传里详细记录了自己的读书方法、十三条美德训练和犯错经历。他相信人是可以自我塑造的，也毫不掩饰塑造过程中的虚荣与反复。",
+      "authorBio": "本杰明·富兰克林（1706—1790），美国政治家、科学家、作家。",
+      "reason": "你读过 2 本关于习惯与自律的书",
+      "scores": {
+        "content": 0.26,
+        "cf": 0.24,
+        "popularity": 0.15,
+        "freshness": 0.35
+      }
+    },
+    {
+      "id": "waerdengchu",
+      "title": "瓦尔登湖",
+      "author": "亨利·戴维·梭罗",
+      "categoryId": "biography",
+      "tags": [
+        "自然",
+        "独处",
+        "生活实验"
+      ],
+      "rating": 8.9,
+      "readers": 12180,
+      "words": "18.4 万",
+      "publishedYear": 1854,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "bottle",
+      "coverPattern": "arch",
+      "blurb": "在湖边住两年，看看人到底需要多少东西才能生活。",
+      "intro": "梭罗在瓦尔登湖边搭了一间小木屋，种豆、读书、观察四季。他不是要教人隐居，而是想验证：许多被当作必需的东西，其实只是习惯。",
+      "authorBio": "亨利·戴维·梭罗（1817—1862），美国作家、哲学家，代表作有《瓦尔登湖》《论公民的不服从》。",
+      "reason": "你连续三周在周末阅读自然类作品",
+      "scores": {
+        "content": 0.34,
+        "cf": 0.26,
+        "popularity": 0.17,
+        "freshness": 0.23
+      }
+    },
+    {
+      "id": "haidiliangwanli",
+      "title": "海底两万里",
+      "author": "儒勒·凡尔纳",
+      "categoryId": "scifi",
+      "tags": [
+        "科幻",
+        "冒险",
+        "海洋"
+      ],
+      "rating": 8.9,
+      "readers": 16340,
+      "words": "22.6 万",
+      "publishedYear": 1870,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "navy",
+      "coverPattern": "bands",
+      "blurb": "跟随鹦鹉螺号，潜入十九世纪想象力的最深处。",
+      "intro": "阿龙纳斯教授被神秘潜艇鹦鹉螺号俘获，随尼摩船长穿越珊瑚礁、海底森林与亚特兰蒂斯废墟。凡尔纳在电灯尚未普及的年代，写出了一个完整而可信的海底世界。",
+      "authorBio": "儒勒·凡尔纳（1828—1905），法国科幻小说家，被誉为“科幻小说之父”。",
+      "reason": "与你收藏的《小王子》同属“想象力”书单",
+      "scores": {
+        "content": 0.3,
+        "cf": 0.32,
+        "popularity": 0.19,
+        "freshness": 0.19
+      }
+    },
+    {
+      "id": "xiaowangzi",
+      "title": "小王子",
+      "author": "圣埃克苏佩里",
+      "categoryId": "scifi",
+      "tags": [
+        "童话",
+        "哲思",
+        "爱"
+      ],
+      "rating": 9.4,
+      "readers": 28640,
+      "words": "3.2 万",
+      "publishedYear": 1943,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": true,
+      "listed": true,
+      "coverTheme": "mustard",
+      "coverPattern": "rings",
+      "blurb": "“真正重要的东西，用眼睛是看不见的。”",
+      "intro": "飞行员在撒哈拉沙漠遇见一个来自 B612 星球的小王子。小王子讲他的玫瑰、狐狸和旅途中遇见的奇怪大人。它被当作童话读，却常常在成年后的某个时刻突然击中你。",
+      "authorBio": "安托万·德·圣埃克苏佩里（1900—1944），法国飞行员、作家。",
+      "reason": "你重读过 3 次以上，且评分高于同类作品均值",
+      "scores": {
+        "content": 0.3,
+        "cf": 0.36,
+        "popularity": 0.21,
+        "freshness": 0.13
+      }
+    },
+    {
+      "id": "shijiandezhezhou",
+      "title": "时间的褶皱",
+      "author": "顾行",
+      "categoryId": "scifi",
+      "tags": [
+        "原创",
+        "科幻",
+        "时间"
+      ],
+      "rating": 8.8,
+      "readers": 4120,
+      "words": "23.6 万",
+      "publishedYear": 2025,
+      "status": "连载",
+      "free": false,
+      "original": true,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "ink",
+      "coverPattern": "letter",
+      "blurb": "每次睡着，他都会提前一天醒来。",
+      "intro": "气象工程师周野发现自己每天醒来都比别人早一天：他能看到尚未发生的天气，却无法阻止任何一场雨。直到他在一次异常的台风路径里，看见了自己的名字。",
+      "authorBio": "顾行，站内原创作者，写作偏向近未来与时间叙事。",
+      "reason": "站内新作 · 与你收藏的科幻标签匹配",
+      "scores": {
+        "content": 0.36,
+        "cf": 0.2,
+        "popularity": 0.14,
+        "freshness": 0.3
+      }
+    },
+    {
+      "id": "suiyuanshidan",
+      "title": "随园食单",
+      "author": "袁枚",
+      "categoryId": "life",
+      "tags": [
+        "饮食",
+        "生活",
+        "清代"
+      ],
+      "rating": 8.8,
+      "readers": 6240,
+      "words": "6.8 万",
+      "publishedYear": 1792,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "mustard",
+      "coverPattern": "letter",
+      "blurb": "清代文人的餐桌笔记，一本可以读饿的书。",
+      "intro": "袁枚写菜，也写做菜的人：火候、时节、器皿、待客之道。他不追求珍稀，讲究的是“有味者使之出，无味者使之入”。读它，像跟着一个讲究人逛了一趟菜场。",
+      "authorBio": "袁枚（1716—1797），清代诗人、美食家，著有《随园诗话》《随园食单》。",
+      "reason": "你收藏过“饮食与生活美学”主题书单",
+      "scores": {
+        "content": 0.27,
+        "cf": 0.25,
+        "popularity": 0.16,
+        "freshness": 0.32
+      }
+    },
+    {
+      "id": "yuanye",
+      "title": "园冶",
+      "author": "计成",
+      "categoryId": "life",
+      "tags": [
+        "园林",
+        "美学",
+        "营造"
+      ],
+      "rating": 8.7,
+      "readers": 4380,
+      "words": "3.4 万",
+      "publishedYear": 1631,
+      "status": "完结",
+      "free": true,
+      "original": false,
+      "featured": false,
+      "listed": true,
+      "coverTheme": "bottle",
+      "coverPattern": "grid",
+      "blurb": "中国第一部园林营造专著，讲如何把山水搬进院子。",
+      "intro": "计成谈相地、立基、屋宇、掇山、借景。他反对堆砌，主张“虽由人作，宛自天开”。短短几卷，既是造园手册，也是一种关于空间与自然的审美观。",
+      "authorBio": "计成（1582—1642），明代造园家，《园冶》为其代表作。",
+      "reason": "你最近收藏了 2 本空间美学类作品",
+      "scores": {
+        "content": 0.25,
+        "cf": 0.21,
+        "popularity": 0.14,
+        "freshness": 0.4
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "小引",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "狗·猫·鼠",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "阿长与《山海经》",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "二十四孝图",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "五猖会",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "无常",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "从百草园到三味书屋",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "父亲的病",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "琐记",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "藤野先生",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "范爱农",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhaohuaxishi",
+      "title": "后记",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "自序",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "狂人日记",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "孔乙己",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "药",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "明天",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "一件小事",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "头发的故事",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "风波",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "故乡",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "阿Q正传",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "端午节",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "白光",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "兔和猫",
+      "orderNo": 13,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "鸭的喜剧",
+      "orderNo": 14,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nahan",
+      "title": "社戏",
+      "orderNo": 15,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第一章 车",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第二章 兵乱",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第三章 逃",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第四章 骆驼",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第五章 虎妞",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第六章 拉车",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第七章 雨",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第八章 败",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "luotuoxiangzi",
+      "title": "第九章 空",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "hulanhezhuan",
+      "title": "第一章 小城",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "hulanhezhuan",
+      "title": "第二章 祖父的花园",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "hulanhezhuan",
+      "title": "第三章 团圆媳妇",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "hulanhezhuan",
+      "title": "第四章 有二伯",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "hulanhezhuan",
+      "title": "第五章 冯歪嘴子",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "hulanhezhuan",
+      "title": "第六章 后花园",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "hulanhezhuan",
+      "title": "尾声",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第一部 一",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第一部 二",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第一部 三",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第一部 四",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第一部 五",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第一部 六",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第二部 一",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第二部 二",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第二部 三",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第二部 四",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "jiuwairen",
+      "title": "第二部 五",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "laorenyuhai",
+      "title": "第一章 出海",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "laorenyuhai",
+      "title": "第二章 大鱼",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "laorenyuhai",
+      "title": "第三章 对峙",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "laorenyuhai",
+      "title": "第四章 鲨鱼",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "laorenyuhai",
+      "title": "第五章 归来",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yueliangliubianshi",
+      "title": "第一章 相遇",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "yueliangliubianshi",
+      "title": "第二章 出走",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yueliangliubianshi",
+      "title": "第三章 巴黎",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yueliangliubianshi",
+      "title": "第四章 画室",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yueliangliubianshi",
+      "title": "第五章 塔希提",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yueliangliubianshi",
+      "title": "第六章 月亮",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yueliangliubianshi",
+      "title": "第七章 尾声",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shanhaizhijian",
+      "title": "第一章 归潮",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "shanhaizhijian",
+      "title": "第二章 老屋",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shanhaizhijian",
+      "title": "第三章 修船的人",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shanhaizhijian",
+      "title": "第四章 红线",
+      "orderNo": 4,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "shanhaizhijian",
+      "title": "第五章 信",
+      "orderNo": 5,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "shanhaizhijian",
+      "title": "第六章 台风",
+      "orderNo": 6,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "shanhaizhijian",
+      "title": "第七章 山海之间",
+      "orderNo": 7,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "changyejiangjin",
+      "title": "第一章 停电",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "changyejiangjin",
+      "title": "第二章 旧案",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "changyejiangjin",
+      "title": "第三章 路灯",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "changyejiangjin",
+      "title": "第四章 证词",
+      "orderNo": 4,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "changyejiangjin",
+      "title": "第五章 第二个人",
+      "orderNo": 5,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "changyejiangjin",
+      "title": "第六章 长夜",
+      "orderNo": 6,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "changyejiangjin",
+      "title": "第七章 将尽",
+      "orderNo": 7,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "nanfangyoujiamu",
+      "title": "第一章 茶山",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "nanfangyoujiamu",
+      "title": "第二章 铁盒",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nanfangyoujiamu",
+      "title": "第三章 三姐妹",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "nanfangyoujiamu",
+      "title": "第四章 春茶",
+      "orderNo": 4,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "nanfangyoujiamu",
+      "title": "第五章 族谱",
+      "orderNo": 5,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "nanfangyoujiamu",
+      "title": "第六章 嘉木",
+      "orderNo": 6,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "renjiancihua",
+      "title": "一 境界",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "renjiancihua",
+      "title": "二 有我之境",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "renjiancihua",
+      "title": "三 无我之境",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "renjiancihua",
+      "title": "四 隔与不隔",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "renjiancihua",
+      "title": "五 赤子之心",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "renjiancihua",
+      "title": "六 三种境界",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "renjiancihua",
+      "title": "七 词人者不失赤子之心",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "renjiancihua",
+      "title": "八 后记",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fushengliuji",
+      "title": "闺房记乐",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "fushengliuji",
+      "title": "闲情记趣",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fushengliuji",
+      "title": "坎坷记愁",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fushengliuji",
+      "title": "浪游记快",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fushengliuji",
+      "title": "中山记历",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fushengliuji",
+      "title": "养生记道",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhimodeshi",
+      "title": "再别康桥",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "zhimodeshi",
+      "title": "沙扬娜拉",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhimodeshi",
+      "title": "偶然",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhimodeshi",
+      "title": "我不知道风是在哪一个方向吹",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhimodeshi",
+      "title": "雪花的快乐",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "zhimodeshi",
+      "title": "翡冷翠的一夜",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "feiniaoji",
+      "title": "飞鸟集 一",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "feiniaoji",
+      "title": "飞鸟集 二",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "feiniaoji",
+      "title": "飞鸟集 三",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "feiniaoji",
+      "title": "飞鸟集 四",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "feiniaoji",
+      "title": "飞鸟集 五",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "feiniaoji",
+      "title": "飞鸟集 六",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷一 从他人身上学习",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷二 专注于当下",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷三 内在的城堡",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷四 关于死亡",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷五 责任",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷六 与他人相处",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷七 逆境",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷八 清晨",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷九 理性",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷十 平静",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷十一 真诚",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "chensilu",
+      "title": "卷十二 告别",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "kunchongji",
+      "title": "蝉",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "kunchongji",
+      "title": "螳螂",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "kunchongji",
+      "title": "蜣螂",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "kunchongji",
+      "title": "蜘蛛",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "kunchongji",
+      "title": "蜜蜂",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "kunchongji",
+      "title": "蚂蚁",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "kunchongji",
+      "title": "萤火虫",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "kunchongji",
+      "title": "田野的黄昏",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "故事",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "辩证",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "乐律",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "象数",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "人事",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "官政",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "权智",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "艺文",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "书画",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "技艺",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "器用",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "神奇",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "异事",
+      "orderNo": 13,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "谬误",
+      "orderNo": 14,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "讥谑",
+      "orderNo": 15,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "杂志",
+      "orderNo": 16,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "mengxibitan",
+      "title": "药议",
+      "orderNo": 17,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "德行",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "言语",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "政事",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "文学",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "方正",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "雅量",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "识鉴",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "赏誉",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "品藻",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "规箴",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "捷悟",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "夙惠",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "豪爽",
+      "orderNo": 13,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "容止",
+      "orderNo": 14,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "自新",
+      "orderNo": 15,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "企羡",
+      "orderNo": 16,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "伤逝",
+      "orderNo": 17,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "栖逸",
+      "orderNo": 18,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "贤媛",
+      "orderNo": 19,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "术解",
+      "orderNo": 20,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "巧艺",
+      "orderNo": 21,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "宠礼",
+      "orderNo": 22,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "任诞",
+      "orderNo": 23,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "简傲",
+      "orderNo": 24,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "排调",
+      "orderNo": 25,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "轻诋",
+      "orderNo": 26,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "假谲",
+      "orderNo": 27,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "黜免",
+      "orderNo": 28,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "俭啬",
+      "orderNo": 29,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "汰侈",
+      "orderNo": 30,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "忿狷",
+      "orderNo": 31,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "谗险",
+      "orderNo": 32,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "尤悔",
+      "orderNo": 33,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "纰漏",
+      "orderNo": 34,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "惑溺",
+      "orderNo": 35,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shishuoxinyu",
+      "title": "仇隙",
+      "orderNo": 36,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "婆罗门之子",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "沙门",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "乔达摩",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "觉醒",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "迦摩罗",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "尘世",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "轮回",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "河边",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "船夫",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "儿子",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "唵",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xishuda",
+      "title": "悉达多",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "caigentan",
+      "title": "修省",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "caigentan",
+      "title": "应酬",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "caigentan",
+      "title": "评议",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "caigentan",
+      "title": "闲适",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "caigentan",
+      "title": "概论 一",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "caigentan",
+      "title": "概论 二",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "caigentan",
+      "title": "概论 三",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fankelinzizhuan",
+      "title": "第一章 少年",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "fankelinzizhuan",
+      "title": "第二章 印刷所",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fankelinzizhuan",
+      "title": "第三章 费城",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fankelinzizhuan",
+      "title": "第四章 图书馆",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fankelinzizhuan",
+      "title": "第五章 十三条美德",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fankelinzizhuan",
+      "title": "第六章 公共事业",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fankelinzizhuan",
+      "title": "第七章 电",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "fankelinzizhuan",
+      "title": "第八章 晚年",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "经济",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "我生活的地方",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "阅读",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "声音",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "独处",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "访客",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "豆田",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "村庄",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "湖",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "更高的规律",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "禽兽为邻",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "冬天的湖",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "春天",
+      "orderNo": 13,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "waerdengchu",
+      "title": "结语",
+      "orderNo": 14,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "飞驰的暗礁",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "鹦鹉螺号",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "尼摩船长",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "海底森林",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "珊瑚王国",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "亚特兰蒂斯",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "冰山",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "章鱼",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "复仇",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "haidiliangwanli",
+      "title": "尾声",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "一 帽子",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "二 沙漠",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "三 星球",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "四 玫瑰",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "五 猴面包树",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "六 日落",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "七 狐狸",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "八 离别",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "xiaowangzi",
+      "title": "九 回家",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shijiandezhezhou",
+      "title": "第一章 提前一天",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "shijiandezhezhou",
+      "title": "第二章 台风眼",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shijiandezhezhou",
+      "title": "第三章 气象站",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "shijiandezhezhou",
+      "title": "第四章 第二封信",
+      "orderNo": 4,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "shijiandezhezhou",
+      "title": "第五章 褶皱",
+      "orderNo": 5,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "shijiandezhezhou",
+      "title": "第六章 逆流",
+      "orderNo": 6,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "shijiandezhezhou",
+      "title": "第七章 明天见",
+      "orderNo": 7,
+      "content": "",
+      "free": false
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "须知单",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "戒单",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "海鲜单",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "江鲜单",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "特牲单",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "杂牲单",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "羽族单",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "水族有鳞单",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "水族无鳞单",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "杂素菜单",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "小菜单",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "点心单",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "饭粥单",
+      "orderNo": 13,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "suiyuanshidan",
+      "title": "茶酒单",
+      "orderNo": 14,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "兴造论",
+      "orderNo": 1,
+      "content": "夜色是从书页的边缘慢慢渗进来的。窗外的城市还在响，车流像一条不肯睡去的河。我把台灯往左挪了挪，光落在纸上，字便有了影子。白天读不进去的句子，到了这个时候，忽然愿意停下来，等一等我。\n\n小时候读书没有这样安静。那时候的书多半是借来的，封皮用旧报纸包着，翻页时要格外小心。夏天午后，蝉声把屋子填得满满的，我趴在竹席上，把一本《水浒》看得七零八落。很多字不认识，就跳过去；很多情节记不住，也不妨碍我第二天接着看。现在想来，那种读书法近乎鲁莽，却有一种后来再也没有的快乐：不为懂得，只为想知道后面发生了什么。\n\n后来读书变得有目的了。为了考试，为了论文，为了在谈话里不掉队。书页上开始出现铅笔线、折角、便签，出现“此处重要”“可引用”这样的批注。知识确实多了，但那种被一个句子忽然击中的时刻，反而少了。我们太急着把书读完，忘了书也可以把人读慢。\n\n我渐渐学会在书里留白。遇到喜欢的段落，不急着划下来，先合上书，去倒一杯水，或者站到窗前看一会儿。等那句话在心里沉下去，再回来找它。这样做很费时间，却让一本书真正变成了自己的。就像小时候外婆晒被子，总要在太阳最好的时候翻一次面，让另一面也晒透。\n\n读书说到底是一件很私人的事。别人推荐的书单，只能提供一个入口；真正走进去，要靠自己的脚步。有些书在二十岁读是路标，到了三十岁再读，可能只是一块石头。这没有什么可惜的。人和书的关系，本来就和人和人的关系一样，讲究一个恰逢其时。\n\n台灯的光圈慢慢缩小，杯子里的茶已经凉了。我合上书，把书签夹回刚才那一页。明天未必会接着读，但我知道它在那里。",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "园说",
+      "orderNo": 2,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "相地",
+      "orderNo": 3,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "立基",
+      "orderNo": 4,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "屋宇",
+      "orderNo": 5,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "装折",
+      "orderNo": 6,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "门窗",
+      "orderNo": 7,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "墙垣",
+      "orderNo": 8,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "铺地",
+      "orderNo": 9,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "掇山",
+      "orderNo": 10,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "选石",
+      "orderNo": 11,
+      "content": "",
+      "free": true
+    },
+    {
+      "bookId": "yuanye",
+      "title": "借景",
+      "orderNo": 12,
+      "content": "",
+      "free": true
+    }
+  ],
+  "booklists": [
+    {
+      "id": "commute",
+      "title": "在通勤路上读完的 5 本小书",
+      "description": "短，但不轻。每本都能在两周的通勤里读完，适合在换乘的间隙翻开。",
+      "mark": "短",
+      "theme": "bottle",
+      "sort": 1,
+      "bookIds": [
+        "xiaowangzi",
+        "laorenyuhai",
+        "jiuwairen",
+        "feiniaoji",
+        "caigentan"
+      ]
+    },
+    {
+      "id": "hometown",
+      "title": "重新认识故乡",
+      "description": "从鲁迅的百草园到萧红的呼兰河，再到今天的海边小镇。故乡不是一个地点，是一种回望的方式。",
+      "mark": "乡",
+      "theme": "oxblood",
+      "sort": 2,
+      "bookIds": [
+        "zhaohuaxishi",
+        "hulanhezhuan",
+        "shanhaizhijian",
+        "nanfangyoujiamu"
+      ]
+    },
+    {
+      "id": "solitude",
+      "title": "关于独处的三本书",
+      "description": "独处不是逃离，是把生活的节奏拿回自己手里。三本适合在周末慢慢读的书。",
+      "mark": "独",
+      "theme": "ink",
+      "sort": 3,
+      "bookIds": [
+        "waerdengchu",
+        "chensilu",
+        "xishuda"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "reader@moread.cn",
+      "password": "123456",
+      "name": "林见鹿",
+      "handle": "@linjianlu",
+      "avatar": 1,
+      "bio": "在出版社做编辑，读得慢，记得多。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2024-03-12T09:00:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "password": "123456",
+      "name": "周野",
+      "handle": "@zhouye",
+      "avatar": 0,
+      "bio": "写小说，也读别人的小说。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2024-03-12T09:00:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "password": "123456",
+      "name": "苏禾",
+      "handle": "@suhe",
+      "avatar": 4,
+      "bio": "南方人，茶与家族史爱好者。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2024-03-12T09:00:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "password": "123456",
+      "name": "陈默",
+      "handle": "@chenmo",
+      "avatar": 3,
+      "bio": "悬疑作者，习惯在夜里读书。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2024-03-12T09:00:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "password": "123456",
+      "name": "小满",
+      "handle": "@xiaoman",
+      "avatar": 2,
+      "bio": "通勤阅读选手，每周一本。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2024-03-12T09:00:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "password": "123456",
+      "name": "阿棠",
+      "handle": "@atang",
+      "avatar": 2,
+      "bio": "自然观察与散文。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2024-03-12T09:00:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "password": "123456",
+      "name": "顾行",
+      "handle": "@guxing",
+      "avatar": 0,
+      "bio": "写科幻，关心时间与记忆。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2024-03-12T09:00:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "password": "123456",
+      "name": "许知白",
+      "handle": "@xuzhibai",
+      "avatar": 5,
+      "bio": "古典文学研究生，正在补课。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2024-03-12T09:00:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "password": "123456",
+      "name": "老周",
+      "handle": "@laozhou",
+      "avatar": 5,
+      "bio": "读得很慢，但很认真。",
+      "role": "READER",
+      "status": "ACTIVE",
+      "joinedAt": "2023-10-01T09:00:00"
+    },
+    {
+      "email": "admin@moread.cn",
+      "password": "admin123",
+      "name": "管理员",
+      "handle": "@admin",
+      "avatar": 0,
+      "bio": "墨阅管理员。",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "joinedAt": "2023-01-01T09:00:00"
+    }
+  ],
+  "shelves": [
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "status": "READING",
+      "createdAt": "2026-09-25T21:48:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "status": "READING",
+      "createdAt": "2026-08-20T21:36:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "status": "WANT",
+      "createdAt": "2026-08-02T21:05:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "status": "WANT",
+      "createdAt": "2026-09-21T21:43:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xishuda",
+      "status": "WANT",
+      "createdAt": "2026-09-18T21:04:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "FINISHED",
+      "createdAt": "2026-08-30T21:04:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "FINISHED",
+      "createdAt": "2026-08-04T21:01:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "READING",
+      "createdAt": "2026-07-28T21:08:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "READING",
+      "createdAt": "2026-08-11T21:06:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "status": "WANT",
+      "createdAt": "2026-07-27T21:31:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "xishuda",
+      "status": "WANT",
+      "createdAt": "2026-10-05T21:05:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "hulanhezhuan",
+      "status": "FINISHED",
+      "createdAt": "2026-08-25T21:11:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhimodeshi",
+      "status": "FINISHED",
+      "createdAt": "2026-08-02T21:18:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "READING",
+      "createdAt": "2026-10-07T21:36:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "READING",
+      "createdAt": "2026-10-01T21:39:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "status": "WANT",
+      "createdAt": "2026-09-30T21:40:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "haidiliangwanli",
+      "status": "WANT",
+      "createdAt": "2026-08-20T21:00:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "yuanye",
+      "status": "FINISHED",
+      "createdAt": "2026-10-05T21:06:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "hulanhezhuan",
+      "status": "FINISHED",
+      "createdAt": "2026-07-23T21:20:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "READING",
+      "createdAt": "2026-09-06T21:23:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "READING",
+      "createdAt": "2026-10-06T21:13:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "status": "WANT",
+      "createdAt": "2026-07-29T21:32:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "suiyuanshidan",
+      "status": "WANT",
+      "createdAt": "2026-09-08T21:17:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "shanhaizhijian",
+      "status": "FINISHED",
+      "createdAt": "2026-08-17T21:48:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "hulanhezhuan",
+      "status": "FINISHED",
+      "createdAt": "2026-09-02T21:12:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "READING",
+      "createdAt": "2026-08-20T21:12:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "READING",
+      "createdAt": "2026-07-29T21:07:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "shishuoxinyu",
+      "status": "WANT",
+      "createdAt": "2026-08-21T21:39:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "renjiancihua",
+      "status": "WANT",
+      "createdAt": "2026-10-05T21:02:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "hulanhezhuan",
+      "status": "FINISHED",
+      "createdAt": "2026-07-23T21:20:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "nahan",
+      "status": "FINISHED",
+      "createdAt": "2026-08-21T21:09:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "READING",
+      "createdAt": "2026-10-05T21:19:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "READING",
+      "createdAt": "2026-09-13T21:45:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "status": "WANT",
+      "createdAt": "2026-10-02T21:48:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "chensilu",
+      "status": "WANT",
+      "createdAt": "2026-08-04T21:16:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "hulanhezhuan",
+      "status": "FINISHED",
+      "createdAt": "2026-09-15T21:03:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhimodeshi",
+      "status": "FINISHED",
+      "createdAt": "2026-08-25T21:48:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "READING",
+      "createdAt": "2026-09-30T21:42:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "READING",
+      "createdAt": "2026-09-28T21:26:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "status": "WANT",
+      "createdAt": "2026-07-21T21:29:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "shanhaizhijian",
+      "status": "WANT",
+      "createdAt": "2026-08-25T21:46:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "hulanhezhuan",
+      "status": "FINISHED",
+      "createdAt": "2026-09-10T21:43:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "status": "FINISHED",
+      "createdAt": "2026-09-07T21:44:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "READING",
+      "createdAt": "2026-08-25T21:44:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "READING",
+      "createdAt": "2026-08-23T21:40:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "status": "WANT",
+      "createdAt": "2026-08-24T21:33:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "haidiliangwanli",
+      "status": "WANT",
+      "createdAt": "2026-08-31T21:40:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "fankelinzizhuan",
+      "status": "FINISHED",
+      "createdAt": "2026-08-29T21:45:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "waerdengchu",
+      "status": "FINISHED",
+      "createdAt": "2026-09-12T21:10:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "xiaowangzi",
+      "status": "READING",
+      "createdAt": "2026-07-28T21:13:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "status": "READING",
+      "createdAt": "2026-09-12T21:11:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "chensilu",
+      "status": "WANT",
+      "createdAt": "2026-08-15T21:20:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "jiuwairen",
+      "status": "WANT",
+      "createdAt": "2026-09-23T21:26:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "status": "FINISHED",
+      "createdAt": "2026-09-07T21:00:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "waerdengchu",
+      "status": "FINISHED",
+      "createdAt": "2026-08-31T21:26:00"
+    }
+  ],
+  "progress": [
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 3,
+      "percent": 42,
+      "lastReadAt": "2026-10-17T11:26:44"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "chapterNo": 2,
+      "percent": 18,
+      "lastReadAt": "2026-10-16T13:26:44"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 9,
+      "percent": 100,
+      "lastReadAt": "2026-10-08T21:07:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 12,
+      "percent": 100,
+      "lastReadAt": "2026-09-16T21:19:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 3,
+      "percent": 54,
+      "lastReadAt": "2026-10-06T21:06:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 3,
+      "percent": 44,
+      "lastReadAt": "2026-09-30T21:44:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-10-14T21:48:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhimodeshi",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-21T21:26:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 2,
+      "percent": 47,
+      "lastReadAt": "2026-10-17T21:21:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 1,
+      "percent": 25,
+      "lastReadAt": "2026-10-11T21:34:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "yuanye",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-10-15T21:47:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-11T21:49:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 2,
+      "percent": 70,
+      "lastReadAt": "2026-10-06T21:46:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 3,
+      "percent": 36,
+      "lastReadAt": "2026-10-16T21:00:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "shanhaizhijian",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-10-06T21:42:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-12T21:28:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 3,
+      "percent": 73,
+      "lastReadAt": "2026-10-09T21:03:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 3,
+      "percent": 23,
+      "lastReadAt": "2026-10-07T21:06:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-11T21:22:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "nahan",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-10-10T21:12:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 1,
+      "percent": 51,
+      "lastReadAt": "2026-10-15T21:45:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 2,
+      "percent": 53,
+      "lastReadAt": "2026-10-13T21:19:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-25T21:08:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhimodeshi",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-10-14T21:32:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 2,
+      "percent": 62,
+      "lastReadAt": "2026-10-10T21:42:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 2,
+      "percent": 48,
+      "lastReadAt": "2026-10-08T21:15:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-20T21:41:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-17T21:18:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 2,
+      "percent": 30,
+      "lastReadAt": "2026-10-14T21:08:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 1,
+      "percent": 72,
+      "lastReadAt": "2026-10-12T21:12:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "fankelinzizhuan",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-08T21:18:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "waerdengchu",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-22T21:16:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 2,
+      "percent": 20,
+      "lastReadAt": "2026-10-06T21:31:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 3,
+      "percent": 62,
+      "lastReadAt": "2026-10-12T21:47:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-17T21:24:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "waerdengchu",
+      "chapterNo": 5,
+      "percent": 100,
+      "lastReadAt": "2026-09-10T21:12:00"
+    }
+  ],
+  "notes": [
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "chapterNo": 1,
+      "quote": "我有一时，曾经屡次忆起儿时在故乡所吃的蔬果：菱角，罗汉豆，茭白，香瓜。",
+      "content": "写的是味道，其实是回不去的时间。可以把这段和我自己的童年记忆放在一起读。",
+      "type": "NOTE",
+      "page": "第 32 页",
+      "createdAt": "2026-10-15T22:07:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 1,
+      "quote": "花开了，就像花睡醒了似的。鸟飞了，就像鸟上天了似的。",
+      "content": "重复的句式像孩子的眼睛，简单但不幼稚。萧红的语言节奏值得单独拎出来看。",
+      "type": "NOTE",
+      "page": "第 78 页",
+      "createdAt": "2026-10-12T22:27:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "chapterNo": 1,
+      "quote": "词以境界为最上。有境界则自成高格，自有名句。",
+      "content": "“境界”不是题材大小，而是作品有没有让人进入的空间。可以用它重读《人间词话》里的三种境界。",
+      "type": "NOTE",
+      "page": "第 12 页",
+      "createdAt": "2026-10-09T22:37:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "chapterNo": 1,
+      "quote": "我步入丛林，因为我希望生活得有意义。",
+      "content": "不是鼓励所有人去隐居，而是提醒自己：有些忙碌需要被重新检查。",
+      "type": "NOTE",
+      "page": "第 56 页",
+      "createdAt": "2026-10-06T22:38:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "chapterNo": 1,
+      "quote": "真正重要的东西，用眼睛是看不见的。",
+      "content": "这句话被引用得太多了，几乎失去了重量。放回狐狸和玫瑰的上下文里，才重新变得具体。",
+      "type": "NOTE",
+      "page": "第 21 页",
+      "createdAt": "2026-10-03T22:37:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "chapterNo": 1,
+      "quote": "船修好了，父亲却没有立刻下水。他在船头坐了很久，像在等一个不必说出口的答案。",
+      "content": "好的留白。作者没有解释父亲在想什么，读者自己会补上。",
+      "type": "NOTE",
+      "page": "第 103 页",
+      "createdAt": "2026-09-30T22:13:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "chapterNo": 3,
+      "quote": "花开了，就像花睡醒了似的。鸟飞了，就像鸟上天了似的。",
+      "content": "",
+      "type": "HIGHLIGHT",
+      "page": "第 78 页",
+      "createdAt": "2026-10-14T23:03:00"
+    }
+  ],
+  "reviews": [
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "rating": 5,
+      "content": "读《从百草园到三味书屋》时忽然想起外婆家的院子。鲁迅写童年没有把它写美，只是写得真，所以那些草木虫鱼才会一直活着。",
+      "status": "PASSED",
+      "likes": 42,
+      "createdAt": "2026-10-16T20:02:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "hulanhezhuan",
+      "rating": 5,
+      "content": "萧红写的是呼兰河，也是所有人的故乡。最难过的是她写那些受苦的人时，语气里没有居高临下，只有一种近乎温柔的记得。",
+      "status": "PASSED",
+      "likes": 38,
+      "createdAt": "2026-10-15T20:17:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "jiuwairen",
+      "rating": 5,
+      "content": "第一次读觉得冷，第二次读才明白那不是冷漠，是一个人拒绝撒谎。审判他的世界，其实比默尔索更荒诞。",
+      "status": "PASSED",
+      "likes": 27,
+      "createdAt": "2026-10-14T20:08:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "rating": 5,
+      "content": "小时候以为是童话，现在知道它是关于失去的说明书。狐狸那段每次读都会停很久。",
+      "status": "PASSED",
+      "likes": 61,
+      "createdAt": "2026-10-13T20:12:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "renjiancihua",
+      "rating": 5,
+      "content": "“境界”二字看似玄，其实说的是作品能不能让人走进去。王国维的厉害之处在于，他既懂词，也懂人。",
+      "status": "PASSED",
+      "likes": 33,
+      "createdAt": "2026-10-12T20:22:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "shanhaizhijian",
+      "rating": 4,
+      "content": "父子和解写得克制，没有煽情。修船那条线很好，船修好了，人也终于愿意说一句软话。",
+      "status": "PASSED",
+      "likes": 18,
+      "createdAt": "2026-10-11T20:11:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "waerdengchu",
+      "rating": 5,
+      "content": "独处不是逃离社会，而是把自己从别人的节奏里暂时拿回来。读到“我步入丛林”那段时，窗外正好下雨。",
+      "status": "PASSED",
+      "likes": 24,
+      "createdAt": "2026-10-10T20:17:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "laorenyuhai",
+      "rating": 5,
+      "content": "“人可以被毁灭，但不能被打败。”年轻时觉得这是热血，现在觉得这是一个人对自己的交代。",
+      "status": "PASSED",
+      "likes": 45,
+      "createdAt": "2026-10-09T20:05:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "chensilu",
+      "rating": 4,
+      "content": "每天读两页，像是有人在耳边提醒：今天也不必被别人的情绪带走。适合放在床头，不适合一口气读完。",
+      "status": "PASSED",
+      "likes": 19,
+      "createdAt": "2026-10-08T20:36:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "changyejiangjin",
+      "rating": 4,
+      "content": "前六章铺得很稳，第七章收得有点急。但停电夜里的那场对话写得好，每个人的证词都在保护自己。",
+      "status": "PASSED",
+      "likes": 12,
+      "createdAt": "2026-10-07T20:39:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "feiniaoji",
+      "rating": 5,
+      "content": "短句的好处是可以随时放下，也随时被击中。最喜欢“我们看错了世界，却说世界欺骗了我们”。",
+      "status": "PASSED",
+      "likes": 29,
+      "createdAt": "2026-10-06T20:15:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "kunchongji",
+      "rating": 5,
+      "content": "法布尔最难得的是耐心。他不急着给虫子下结论，只是看。读完会想去楼下草丛蹲一会儿。",
+      "status": "PASSED",
+      "likes": 21,
+      "createdAt": "2026-10-05T20:46:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "rating": 5,
+      "content": "读《从百草园到三味书屋》时忽然想起外婆家的院子。",
+      "status": "PENDING",
+      "likes": 0,
+      "createdAt": "2026-10-16T18:35:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "hulanhezhuan",
+      "rating": 5,
+      "content": "萧红写的是呼兰河，也是所有人的故乡。",
+      "status": "PENDING",
+      "likes": 0,
+      "createdAt": "2026-10-15T18:16:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "jiuwairen",
+      "rating": 5,
+      "content": "第一次读觉得冷，第二次读才明白那不是冷漠。",
+      "status": "PENDING",
+      "likes": 0,
+      "createdAt": "2026-10-14T18:21:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "shanhaizhijian",
+      "rating": 5,
+      "content": "父子和解写得克制，没有煽情。",
+      "status": "PASSED",
+      "likes": 0,
+      "createdAt": "2026-10-13T18:05:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "changyejiangjin",
+      "rating": 5,
+      "content": "前六章铺得很稳，第七章收得有点急。",
+      "status": "REJECTED",
+      "likes": 0,
+      "createdAt": "2026-10-12T18:49:00"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "email": "reader@moread.cn",
+      "topic": "本周共读",
+      "content": "读到团圆媳妇那一章，停下来很久。萧红没有替她喊冤，只是把周围人的语气、动作、看热闹的姿势一一写下来。冷漠有时候不是恶意，是一群人一起把某件事当成“正常”。今晚八点共读室聊聊这一章。",
+      "bookId": "hulanhezhuan",
+      "image": "assets/img/pexels/reading-window.jpg",
+      "likes": 46,
+      "commentCount": 12,
+      "createdAt": "2026-10-17T13:26:44"
+    },
+    {
+      "id": "p2",
+      "email": "zhouye@moread.cn",
+      "topic": "摘录",
+      "content": "“我有一时，曾经屡次忆起儿时在故乡所吃的蔬果：菱角，罗汉豆，茭白，香瓜。”——鲁迅写故乡，先写的是舌头记得的东西。",
+      "bookId": "zhaohuaxishi",
+      "image": "",
+      "likes": 31,
+      "commentCount": 5,
+      "createdAt": "2026-10-17T11:26:44"
+    },
+    {
+      "id": "p3",
+      "email": "suhe@moread.cn",
+      "topic": "书评",
+      "content": "《山海之间》最打动我的是它没有把“回乡”写成和解。阿岸和父亲到最后也没有抱头痛哭，只是把船推下了水。很多时候，关系就是这样慢慢修好的。",
+      "bookId": "shanhaizhijian",
+      "image": "assets/img/picsum/moread-post-1.jpg",
+      "likes": 18,
+      "commentCount": 7,
+      "createdAt": "2026-10-16T20:16:00"
+    },
+    {
+      "id": "p4",
+      "email": "chenmo@moread.cn",
+      "topic": "提问",
+      "content": "如果默尔索在葬礼上哭了，他还会被判死刑吗？加缪想写的到底是司法的荒诞，还是“不表演”的代价？想听听大家的读法。",
+      "bookId": "jiuwairen",
+      "image": "",
+      "likes": 9,
+      "commentCount": 14,
+      "createdAt": "2026-10-15T20:06:00"
+    },
+    {
+      "id": "p5",
+      "email": "xiaoman@moread.cn",
+      "topic": "本周共读",
+      "content": "今天在通勤路上读完了第四章。萧红写有二伯偷东西那段，又好笑又心酸。她写人的缺点时，从不站在高处。",
+      "bookId": "hulanhezhuan",
+      "image": "assets/img/pexels/reading-tea.jpg",
+      "likes": 22,
+      "commentCount": 3,
+      "createdAt": "2026-10-14T20:32:00"
+    },
+    {
+      "id": "p6",
+      "email": "atang@moread.cn",
+      "topic": "摘录",
+      "content": "“如果你因错过了太阳而流泪，那么你也将错过群星了。”——适合贴在书桌前的一句话。",
+      "bookId": "feiniaoji",
+      "image": "",
+      "likes": 27,
+      "commentCount": 4,
+      "createdAt": "2026-10-13T20:20:00"
+    },
+    {
+      "id": "p7",
+      "email": "guxing@moread.cn",
+      "topic": "书评",
+      "content": "站内原创里少见的硬科幻。时间褶皱的设定没有停留在炫技，最后落回到“人愿不愿意接受明天”这个问题上。推荐给喜欢《你一生的故事》的读者。",
+      "bookId": "shijiandezhezhou",
+      "image": "assets/img/picsum/moread-post-2.jpg",
+      "likes": 14,
+      "commentCount": 6,
+      "createdAt": "2026-10-12T20:13:00"
+    },
+    {
+      "id": "p8",
+      "email": "xuzhibai@moread.cn",
+      "topic": "提问",
+      "content": "王国维说“有境界则自成高格”，但又说“境界有大小，不以是而分优劣”。这两句怎么放在一起理解？",
+      "bookId": "renjiancihua",
+      "image": "",
+      "likes": 11,
+      "commentCount": 8,
+      "createdAt": "2026-10-11T20:18:00"
+    }
+  ],
+  "comments": [
+    {
+      "postId": "p1",
+      "email": "zhouye@moread.cn",
+      "content": "团圆媳妇那一章我读了两遍。最难受的是围观的人并不觉得自己在作恶。",
+      "createdAt": "2026-10-17T14:26:44"
+    },
+    {
+      "postId": "p1",
+      "email": "suhe@moread.cn",
+      "content": "萧红的克制很厉害。她越是不评判，读者越没法轻松地翻过去。",
+      "createdAt": "2026-10-17T13:26:44"
+    },
+    {
+      "postId": "p1",
+      "email": "xiaoman@moread.cn",
+      "content": "今晚共读室会聊这一章吗？我想听听大家怎么看“正常”这件事。",
+      "createdAt": "2026-10-16T20:14:00"
+    },
+    {
+      "postId": "p2",
+      "email": "atang@moread.cn",
+      "content": "味觉记忆真的很顽固。我每次回到老家，先找的不是人，是那家早餐店。",
+      "createdAt": "2026-10-16T20:34:00"
+    },
+    {
+      "postId": "p4",
+      "email": "xuzhibai@moread.cn",
+      "content": "我倾向于两者都有：司法程序的荒诞，和默尔索拒绝表演的代价，是同一件事的两面。",
+      "createdAt": "2026-10-16T20:49:00"
+    },
+    {
+      "postId": "p5",
+      "email": "reader@moread.cn",
+      "content": "通勤读长篇很容易断，但萧红的章节短，反而适合一站一站地接上。",
+      "createdAt": "2026-10-16T20:44:00"
+    }
+  ],
+  "events": [
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 1800,
+      "percent": 30,
+      "createdAt": "2026-10-11T20:15:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 2880,
+      "percent": 35,
+      "createdAt": "2026-10-12T21:21:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 1500,
+      "percent": 40,
+      "createdAt": "2026-10-13T22:34:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3600,
+      "percent": 45,
+      "createdAt": "2026-10-14T20:17:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 2400,
+      "percent": 50,
+      "createdAt": "2026-10-15T21:18:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 4200,
+      "percent": 55,
+      "createdAt": "2026-10-16T22:30:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xishuda",
+      "eventType": "SESSION",
+      "durationSeconds": 2400,
+      "percent": 60,
+      "createdAt": "2026-10-17T20:15:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 6360,
+      "percent": 80,
+      "createdAt": "2026-10-09T22:16:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xishuda",
+      "eventType": "SESSION",
+      "durationSeconds": 5100,
+      "percent": 16,
+      "createdAt": "2026-10-08T23:37:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2820,
+      "percent": 10,
+      "createdAt": "2026-10-07T19:01:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 4080,
+      "percent": 74,
+      "createdAt": "2026-10-06T20:29:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 8160,
+      "percent": 31,
+      "createdAt": "2026-10-04T22:22:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 4380,
+      "percent": 94,
+      "createdAt": "2026-10-03T23:36:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xishuda",
+      "eventType": "SESSION",
+      "durationSeconds": 5640,
+      "percent": 73,
+      "createdAt": "2026-10-02T19:23:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 8460,
+      "percent": 51,
+      "createdAt": "2026-10-01T20:46:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 6300,
+      "percent": 12,
+      "createdAt": "2026-09-29T22:21:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 7560,
+      "percent": 76,
+      "createdAt": "2026-09-28T23:03:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 5640,
+      "percent": 91,
+      "createdAt": "2026-09-27T19:34:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4380,
+      "percent": 27,
+      "createdAt": "2026-09-26T20:19:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 8460,
+      "percent": 69,
+      "createdAt": "2026-09-24T22:21:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 7200,
+      "percent": 92,
+      "createdAt": "2026-09-23T23:01:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 5940,
+      "percent": 28,
+      "createdAt": "2026-09-22T19:19:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 4680,
+      "percent": 49,
+      "createdAt": "2026-09-21T20:30:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 7500,
+      "percent": 29,
+      "createdAt": "2026-09-18T23:33:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 6180,
+      "percent": 87,
+      "createdAt": "2026-09-17T19:27:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 7440,
+      "percent": 66,
+      "createdAt": "2026-09-16T20:41:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3360,
+      "percent": 24,
+      "createdAt": "2026-09-14T22:04:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 7740,
+      "percent": 88,
+      "createdAt": "2026-09-13T23:13:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xishuda",
+      "eventType": "SESSION",
+      "durationSeconds": 2400,
+      "percent": 67,
+      "createdAt": "2026-09-12T19:35:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 3660,
+      "percent": 46,
+      "createdAt": "2026-09-11T20:33:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 3960,
+      "percent": 68,
+      "createdAt": "2026-09-08T23:00:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 8880,
+      "percent": 85,
+      "createdAt": "2026-09-07T19:44:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 7620,
+      "percent": 21,
+      "createdAt": "2026-09-06T20:12:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 4800,
+      "percent": 43,
+      "createdAt": "2026-09-05T21:22:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3540,
+      "percent": 64,
+      "createdAt": "2026-09-04T22:08:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 2580,
+      "percent": 20,
+      "createdAt": "2026-09-02T19:17:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 6360,
+      "percent": 42,
+      "createdAt": "2026-09-01T20:03:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 5100,
+      "percent": 63,
+      "createdAt": "2026-08-31T21:16:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 5400,
+      "percent": 87,
+      "createdAt": "2026-08-30T22:37:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xishuda",
+      "eventType": "SESSION",
+      "durationSeconds": 2820,
+      "percent": 81,
+      "createdAt": "2026-08-28T19:10:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 4080,
+      "percent": 60,
+      "createdAt": "2026-08-27T20:16:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 6900,
+      "percent": 38,
+      "createdAt": "2026-08-26T21:16:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 8160,
+      "percent": 17,
+      "createdAt": "2026-08-25T22:05:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 7860,
+      "percent": 82,
+      "createdAt": "2026-08-24T23:27:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 2520,
+      "percent": 61,
+      "createdAt": "2026-08-23T19:40:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 5340,
+      "percent": 39,
+      "createdAt": "2026-08-22T20:12:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 5940,
+      "percent": 83,
+      "createdAt": "2026-08-20T22:46:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 3360,
+      "percent": 54,
+      "createdAt": "2026-08-18T19:18:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 7440,
+      "percent": 11,
+      "createdAt": "2026-08-16T21:33:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 6180,
+      "percent": 32,
+      "createdAt": "2026-08-15T22:17:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 8400,
+      "percent": 53,
+      "createdAt": "2026-08-14T23:11:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 7140,
+      "percent": 74,
+      "createdAt": "2026-08-13T19:04:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 5880,
+      "percent": 10,
+      "createdAt": "2026-08-12T20:29:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 4620,
+      "percent": 31,
+      "createdAt": "2026-08-11T21:40:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 6840,
+      "percent": 52,
+      "createdAt": "2026-08-10T22:24:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 5580,
+      "percent": 73,
+      "createdAt": "2026-08-09T23:22:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 3900,
+      "percent": 50,
+      "createdAt": "2026-08-08T19:38:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 5160,
+      "percent": 29,
+      "createdAt": "2026-08-07T20:17:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 6420,
+      "percent": 93,
+      "createdAt": "2026-08-06T21:11:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xishuda",
+      "eventType": "SESSION",
+      "durationSeconds": 8940,
+      "percent": 49,
+      "createdAt": "2026-08-04T23:06:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 3600,
+      "percent": 28,
+      "createdAt": "2026-08-03T19:29:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 6120,
+      "percent": 71,
+      "createdAt": "2026-08-01T21:15:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 7380,
+      "percent": 48,
+      "createdAt": "2026-07-31T22:09:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 8640,
+      "percent": 27,
+      "createdAt": "2026-07-30T23:11:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 6600,
+      "percent": 40,
+      "createdAt": "2026-07-29T19:15:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xishuda",
+      "eventType": "SESSION",
+      "durationSeconds": 5340,
+      "percent": 61,
+      "createdAt": "2026-07-28T20:35:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2520,
+      "percent": 83,
+      "createdAt": "2026-07-27T21:41:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 7860,
+      "percent": 19,
+      "createdAt": "2026-07-26T22:01:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "START_READ",
+      "durationSeconds": 0,
+      "percent": 0,
+      "createdAt": "2026-10-15T21:38:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "FINISH",
+      "durationSeconds": 0,
+      "percent": 100,
+      "createdAt": "2026-09-16T22:08:00"
+    },
+    {
+      "email": "reader@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "FINISH",
+      "durationSeconds": 0,
+      "percent": 100,
+      "createdAt": "2026-10-08T22:01:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "xishuda",
+      "eventType": "SESSION",
+      "durationSeconds": 1980,
+      "percent": 83,
+      "createdAt": "2026-07-26T23:27:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 5040,
+      "percent": 19,
+      "createdAt": "2026-09-11T18:18:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhimodeshi",
+      "eventType": "SESSION",
+      "durationSeconds": 4260,
+      "percent": 41,
+      "createdAt": "2026-10-08T21:27:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 3120,
+      "percent": 62,
+      "createdAt": "2026-09-01T22:45:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhimodeshi",
+      "eventType": "SESSION",
+      "durationSeconds": 1620,
+      "percent": 82,
+      "createdAt": "2026-08-15T21:32:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 4680,
+      "percent": 18,
+      "createdAt": "2026-10-01T22:35:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 3900,
+      "percent": 40,
+      "createdAt": "2026-08-05T19:37:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2760,
+      "percent": 61,
+      "createdAt": "2026-09-21T20:07:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhimodeshi",
+      "eventType": "SESSION",
+      "durationSeconds": 2700,
+      "percent": 85,
+      "createdAt": "2026-09-08T21:06:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 1560,
+      "percent": 21,
+      "createdAt": "2026-08-02T22:18:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 1560,
+      "percent": 76,
+      "createdAt": "2026-08-02T22:07:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhimodeshi",
+      "eventType": "SESSION",
+      "durationSeconds": 2700,
+      "percent": 55,
+      "createdAt": "2026-09-08T21:02:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 3840,
+      "percent": 34,
+      "createdAt": "2026-10-15T20:09:00"
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4980,
+      "percent": 13,
+      "createdAt": "2026-08-29T19:25:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 3720,
+      "percent": 42,
+      "createdAt": "2026-09-19T22:44:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 4860,
+      "percent": 21,
+      "createdAt": "2026-08-03T21:06:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "yuanye",
+      "eventType": "SESSION",
+      "durationSeconds": 1800,
+      "percent": 85,
+      "createdAt": "2026-09-09T20:18:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 2940,
+      "percent": 64,
+      "createdAt": "2026-10-16T19:26:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4080,
+      "percent": 43,
+      "createdAt": "2026-08-30T18:37:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 5220,
+      "percent": 22,
+      "createdAt": "2026-10-06T23:11:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 2160,
+      "percent": 86,
+      "createdAt": "2026-08-20T22:43:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 3300,
+      "percent": 65,
+      "createdAt": "2026-09-26T21:45:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3000,
+      "percent": 40,
+      "createdAt": "2026-08-06T18:26:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 4140,
+      "percent": 19,
+      "createdAt": "2026-09-12T23:11:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 3660,
+      "percent": 16,
+      "createdAt": "2026-08-09T21:31:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 2520,
+      "percent": 37,
+      "createdAt": "2026-09-25T22:43:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 1380,
+      "percent": 58,
+      "createdAt": "2026-08-19T23:36:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4440,
+      "percent": 79,
+      "createdAt": "2026-10-05T18:31:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 4020,
+      "percent": 17,
+      "createdAt": "2026-10-12T23:36:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 2880,
+      "percent": 38,
+      "createdAt": "2026-09-05T18:13:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 1740,
+      "percent": 59,
+      "createdAt": "2026-07-30T19:33:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "yuanye",
+      "eventType": "SESSION",
+      "durationSeconds": 4800,
+      "percent": 80,
+      "createdAt": "2026-09-15T20:00:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 2940,
+      "percent": 14,
+      "createdAt": "2026-09-18T23:24:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 1800,
+      "percent": 35,
+      "createdAt": "2026-08-12T18:24:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "yuanye",
+      "eventType": "SESSION",
+      "durationSeconds": 3600,
+      "percent": 20,
+      "createdAt": "2026-09-21T20:14:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4740,
+      "percent": 84,
+      "createdAt": "2026-08-05T19:02:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 1320,
+      "percent": 62,
+      "createdAt": "2026-10-01T22:24:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2460,
+      "percent": 41,
+      "createdAt": "2026-08-15T21:39:00"
+    },
+    {
+      "email": "suhe@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3240,
+      "percent": 19,
+      "createdAt": "2026-10-11T18:15:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2580,
+      "percent": 58,
+      "createdAt": "2026-08-27T21:34:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 1440,
+      "percent": 79,
+      "createdAt": "2026-10-13T22:13:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4860,
+      "percent": 16,
+      "createdAt": "2026-08-17T19:14:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 3720,
+      "percent": 37,
+      "createdAt": "2026-10-03T20:06:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 2220,
+      "percent": 57,
+      "createdAt": "2026-09-16T19:47:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 5280,
+      "percent": 78,
+      "createdAt": "2026-08-10T20:26:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "suiyuanshidan",
+      "eventType": "SESSION",
+      "durationSeconds": 4500,
+      "percent": 15,
+      "createdAt": "2026-09-06T23:48:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3360,
+      "percent": 36,
+      "createdAt": "2026-07-31T18:37:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "suiyuanshidan",
+      "eventType": "SESSION",
+      "durationSeconds": 1860,
+      "percent": 56,
+      "createdAt": "2026-10-06T23:45:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4920,
+      "percent": 77,
+      "createdAt": "2026-08-30T18:11:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 5160,
+      "percent": 86,
+      "createdAt": "2026-07-29T20:21:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 2100,
+      "percent": 65,
+      "createdAt": "2026-09-04T19:08:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3240,
+      "percent": 44,
+      "createdAt": "2026-10-11T18:30:00"
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "bookId": "suiyuanshidan",
+      "eventType": "SESSION",
+      "durationSeconds": 4380,
+      "percent": 23,
+      "createdAt": "2026-08-25T23:05:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 1440,
+      "percent": 94,
+      "createdAt": "2026-08-18T18:20:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 2580,
+      "percent": 73,
+      "createdAt": "2026-09-24T23:37:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "shishuoxinyu",
+      "eventType": "SESSION",
+      "durationSeconds": 3720,
+      "percent": 52,
+      "createdAt": "2026-08-08T22:46:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "nahan",
+      "eventType": "SESSION",
+      "durationSeconds": 4860,
+      "percent": 31,
+      "createdAt": "2026-09-14T21:41:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 1800,
+      "percent": 10,
+      "createdAt": "2026-07-29T20:47:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 2940,
+      "percent": 74,
+      "createdAt": "2026-09-04T19:49:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4080,
+      "percent": 53,
+      "createdAt": "2026-10-11T18:19:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 5220,
+      "percent": 32,
+      "createdAt": "2026-08-25T23:46:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 4920,
+      "percent": 92,
+      "createdAt": "2026-09-27T20:08:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 1860,
+      "percent": 71,
+      "createdAt": "2026-08-11T19:12:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "nahan",
+      "eventType": "SESSION",
+      "durationSeconds": 3900,
+      "percent": 85,
+      "createdAt": "2026-09-02T21:14:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "shishuoxinyu",
+      "eventType": "SESSION",
+      "durationSeconds": 2760,
+      "percent": 21,
+      "createdAt": "2026-07-27T22:01:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 1620,
+      "percent": 42,
+      "createdAt": "2026-09-12T23:40:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4680,
+      "percent": 63,
+      "createdAt": "2026-08-06T18:23:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 4260,
+      "percent": 86,
+      "createdAt": "2026-08-13T23:47:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3120,
+      "percent": 22,
+      "createdAt": "2026-09-29T18:15:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 1980,
+      "percent": 43,
+      "createdAt": "2026-08-23T19:38:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 5040,
+      "percent": 64,
+      "createdAt": "2026-10-09T20:39:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "renjiancihua",
+      "eventType": "SESSION",
+      "durationSeconds": 3180,
+      "percent": 83,
+      "createdAt": "2026-10-12T23:35:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 2040,
+      "percent": 19,
+      "createdAt": "2026-09-05T18:44:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 3840,
+      "percent": 89,
+      "createdAt": "2026-10-15T20:32:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4980,
+      "percent": 68,
+      "createdAt": "2026-08-29T19:41:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "shishuoxinyu",
+      "eventType": "SESSION",
+      "durationSeconds": 1560,
+      "percent": 46,
+      "createdAt": "2026-08-02T22:36:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "nahan",
+      "eventType": "SESSION",
+      "durationSeconds": 2700,
+      "percent": 25,
+      "createdAt": "2026-09-08T21:45:00"
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3480,
+      "percent": 88,
+      "createdAt": "2026-08-12T18:29:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4920,
+      "percent": 47,
+      "createdAt": "2026-10-11T18:19:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 1860,
+      "percent": 26,
+      "createdAt": "2026-08-25T23:39:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2640,
+      "percent": 89,
+      "createdAt": "2026-07-29T20:35:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 3780,
+      "percent": 68,
+      "createdAt": "2026-09-04T19:19:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 5280,
+      "percent": 48,
+      "createdAt": "2026-09-21T20:11:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 2220,
+      "percent": 27,
+      "createdAt": "2026-08-05T19:48:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 3000,
+      "percent": 90,
+      "createdAt": "2026-10-01T22:46:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhimodeshi",
+      "eventType": "SESSION",
+      "durationSeconds": 4140,
+      "percent": 69,
+      "createdAt": "2026-08-15T21:16:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 1440,
+      "percent": 49,
+      "createdAt": "2026-09-01T22:38:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhimodeshi",
+      "eventType": "SESSION",
+      "durationSeconds": 2580,
+      "percent": 28,
+      "createdAt": "2026-10-08T21:16:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 4020,
+      "percent": 32,
+      "createdAt": "2026-08-31T23:28:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 2880,
+      "percent": 53,
+      "createdAt": "2026-10-17T18:31:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhimodeshi",
+      "eventType": "SESSION",
+      "durationSeconds": 2100,
+      "percent": 75,
+      "createdAt": "2026-08-21T21:04:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 5160,
+      "percent": 11,
+      "createdAt": "2026-10-07T22:12:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4380,
+      "percent": 33,
+      "createdAt": "2026-08-11T19:10:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 3240,
+      "percent": 54,
+      "createdAt": "2026-09-27T20:10:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 2460,
+      "percent": 76,
+      "createdAt": "2026-08-01T23:20:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 1320,
+      "percent": 12,
+      "createdAt": "2026-09-17T18:12:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 3300,
+      "percent": 30,
+      "createdAt": "2026-10-10T19:27:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2160,
+      "percent": 51,
+      "createdAt": "2026-09-03T20:44:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 3840,
+      "percent": 74,
+      "createdAt": "2026-09-03T20:22:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4980,
+      "percent": 53,
+      "createdAt": "2026-10-10T19:25:00"
+    },
+    {
+      "email": "atang@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 1920,
+      "percent": 32,
+      "createdAt": "2026-08-24T18:07:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 1500,
+      "percent": 70,
+      "createdAt": "2026-08-31T23:31:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4560,
+      "percent": 91,
+      "createdAt": "2026-10-17T18:11:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3780,
+      "percent": 28,
+      "createdAt": "2026-08-21T21:07:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "eventType": "SESSION",
+      "durationSeconds": 2640,
+      "percent": 49,
+      "createdAt": "2026-10-07T22:28:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 5340,
+      "percent": 69,
+      "createdAt": "2026-09-20T21:44:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "eventType": "SESSION",
+      "durationSeconds": 4200,
+      "percent": 90,
+      "createdAt": "2026-08-14T22:06:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 3420,
+      "percent": 27,
+      "createdAt": "2026-09-10T19:23:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2280,
+      "percent": 48,
+      "createdAt": "2026-08-04T20:21:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 2220,
+      "percent": 72,
+      "createdAt": "2026-10-14T21:13:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "eventType": "SESSION",
+      "durationSeconds": 5280,
+      "percent": 93,
+      "createdAt": "2026-09-07T22:16:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "hulanhezhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 4920,
+      "percent": 72,
+      "createdAt": "2026-09-27T20:37:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 1860,
+      "percent": 51,
+      "createdAt": "2026-08-11T19:48:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3000,
+      "percent": 30,
+      "createdAt": "2026-09-17T18:17:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 4140,
+      "percent": 94,
+      "createdAt": "2026-08-01T23:49:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4560,
+      "percent": 71,
+      "createdAt": "2026-10-17T18:41:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 1500,
+      "percent": 50,
+      "createdAt": "2026-08-31T23:03:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "eventType": "SESSION",
+      "durationSeconds": 2640,
+      "percent": 29,
+      "createdAt": "2026-10-07T22:30:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3780,
+      "percent": 93,
+      "createdAt": "2026-08-21T21:42:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "eventType": "SESSION",
+      "durationSeconds": 4200,
+      "percent": 70,
+      "createdAt": "2026-08-14T22:22:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "luotuoxiangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 5340,
+      "percent": 49,
+      "createdAt": "2026-09-20T21:28:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "shanhaizhijian",
+      "eventType": "SESSION",
+      "durationSeconds": 4980,
+      "percent": 23,
+      "createdAt": "2026-09-12T23:23:00"
+    },
+    {
+      "email": "guxing@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3840,
+      "percent": 44,
+      "createdAt": "2026-08-06T18:01:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 2940,
+      "percent": 64,
+      "createdAt": "2026-09-04T19:10:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "fankelinzizhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 1800,
+      "percent": 85,
+      "createdAt": "2026-07-29T20:02:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 5220,
+      "percent": 22,
+      "createdAt": "2026-08-25T23:09:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4080,
+      "percent": 43,
+      "createdAt": "2026-10-11T18:28:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 3300,
+      "percent": 65,
+      "createdAt": "2026-08-15T21:29:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 2160,
+      "percent": 86,
+      "createdAt": "2026-10-01T22:26:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 1380,
+      "percent": 23,
+      "createdAt": "2026-08-05T19:23:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "fankelinzizhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 4440,
+      "percent": 44,
+      "createdAt": "2026-09-21T20:04:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 2220,
+      "percent": 62,
+      "createdAt": "2026-10-14T21:44:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 5280,
+      "percent": 83,
+      "createdAt": "2026-09-07T22:32:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 3960,
+      "percent": 41,
+      "createdAt": "2026-10-13T22:11:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 5100,
+      "percent": 20,
+      "createdAt": "2026-08-27T21:15:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "fankelinzizhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2040,
+      "percent": 84,
+      "createdAt": "2026-10-03T20:07:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 3180,
+      "percent": 63,
+      "createdAt": "2026-08-17T19:18:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4320,
+      "percent": 42,
+      "createdAt": "2026-09-23T18:27:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 1260,
+      "percent": 21,
+      "createdAt": "2026-08-07T23:03:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 2400,
+      "percent": 85,
+      "createdAt": "2026-09-13T22:34:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 3540,
+      "percent": 64,
+      "createdAt": "2026-07-28T21:08:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 3240,
+      "percent": 39,
+      "createdAt": "2026-08-30T18:21:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 4380,
+      "percent": 18,
+      "createdAt": "2026-10-06T23:41:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4020,
+      "percent": 77,
+      "createdAt": "2026-09-28T19:36:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "fankelinzizhuan",
+      "eventType": "SESSION",
+      "durationSeconds": 2880,
+      "percent": 13,
+      "createdAt": "2026-08-22T20:27:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "haidiliangwanli",
+      "eventType": "SESSION",
+      "durationSeconds": 2100,
+      "percent": 35,
+      "createdAt": "2026-09-18T23:26:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 5160,
+      "percent": 56,
+      "createdAt": "2026-08-12T18:37:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 4380,
+      "percent": 78,
+      "createdAt": "2026-09-08T21:43:00"
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "bookId": "shijiandezhezhou",
+      "eventType": "SESSION",
+      "durationSeconds": 3240,
+      "percent": 14,
+      "createdAt": "2026-08-02T22:43:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "jiuwairen",
+      "eventType": "SESSION",
+      "durationSeconds": 2100,
+      "percent": 20,
+      "createdAt": "2026-08-07T23:29:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 5160,
+      "percent": 41,
+      "createdAt": "2026-09-23T18:04:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 4380,
+      "percent": 63,
+      "createdAt": "2026-07-28T21:02:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 3240,
+      "percent": 84,
+      "createdAt": "2026-09-13T22:00:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 1740,
+      "percent": 19,
+      "createdAt": "2026-08-27T21:19:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 4800,
+      "percent": 40,
+      "createdAt": "2026-10-13T22:06:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4020,
+      "percent": 62,
+      "createdAt": "2026-08-17T19:24:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "eventType": "SESSION",
+      "durationSeconds": 2880,
+      "percent": 83,
+      "createdAt": "2026-10-03T20:04:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 2820,
+      "percent": 22,
+      "createdAt": "2026-09-20T21:28:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 1680,
+      "percent": 43,
+      "createdAt": "2026-08-14T22:08:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "xiaowangzi",
+      "eventType": "SESSION",
+      "durationSeconds": 4440,
+      "percent": 14,
+      "createdAt": "2026-10-05T18:43:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "jiuwairen",
+      "eventType": "SESSION",
+      "durationSeconds": 1380,
+      "percent": 78,
+      "createdAt": "2026-08-19T23:19:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 2520,
+      "percent": 57,
+      "createdAt": "2026-09-25T22:23:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 3660,
+      "percent": 36,
+      "createdAt": "2026-08-09T21:20:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 4080,
+      "percent": 13,
+      "createdAt": "2026-08-02T22:32:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 5220,
+      "percent": 77,
+      "createdAt": "2026-09-08T21:26:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "eventType": "SESSION",
+      "durationSeconds": 2160,
+      "percent": 56,
+      "createdAt": "2026-10-15T20:23:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 3300,
+      "percent": 35,
+      "createdAt": "2026-08-29T19:34:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "yueliangliubianshi",
+      "eventType": "SESSION",
+      "durationSeconds": 3720,
+      "percent": 12,
+      "createdAt": "2026-08-22T20:10:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "zhaohuaxishi",
+      "eventType": "SESSION",
+      "durationSeconds": 4860,
+      "percent": 76,
+      "createdAt": "2026-09-28T19:09:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "waerdengchu",
+      "eventType": "SESSION",
+      "durationSeconds": 4500,
+      "percent": 50,
+      "createdAt": "2026-09-20T21:34:00"
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "bookId": "chensilu",
+      "eventType": "SESSION",
+      "durationSeconds": 3360,
+      "percent": 71,
+      "createdAt": "2026-08-14T22:24:00"
+    }
+  ],
+  "goals": [
+    {
+      "email": "reader@moread.cn",
+      "year": 2026,
+      "target": 24
+    },
+    {
+      "email": "zhouye@moread.cn",
+      "year": 2026,
+      "target": 12
+    },
+    {
+      "email": "suhe@moread.cn",
+      "year": 2026,
+      "target": 12
+    },
+    {
+      "email": "chenmo@moread.cn",
+      "year": 2026,
+      "target": 12
+    },
+    {
+      "email": "xiaoman@moread.cn",
+      "year": 2026,
+      "target": 12
+    },
+    {
+      "email": "atang@moread.cn",
+      "year": 2026,
+      "target": 12
+    },
+    {
+      "email": "guxing@moread.cn",
+      "year": 2026,
+      "target": 12
+    },
+    {
+      "email": "xuzhibai@moread.cn",
+      "year": 2026,
+      "target": 12
+    },
+    {
+      "email": "laozhou@moread.cn",
+      "year": 2026,
+      "target": 12
+    }
+  ],
+  "weights": {
+    "content": 0.35,
+    "cf": 0.3,
+    "popularity": 0.2,
+    "freshness": 0.15
+  }
+}

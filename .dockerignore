@@ -1,0 +1,10 @@
+.git
+release
+.tooling
+**/node_modules
+web/dist
+server/target
+server/src/main/resources/static
+data
+.reference_doc.txt
+cloudflared*

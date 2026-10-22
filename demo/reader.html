@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>阅读 · 墨阅 MoRead</title>
+  <meta name="description" content="墨阅沉浸式阅读器：字号、行距、主题切换，划线与笔记，阅读统计。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    try { if (localStorage.getItem("moread.theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/reader.css">
+</head>
+<body data-page="reader" data-chrome="none">
+  <div class="reader" id="reader" data-reader-theme="paper">
+    <header class="reader-bar">
+      <div class="reader-bar__left">
+        <a class="icon-btn" id="backToBook" href="book.html" aria-label="返回书籍详情"><iconify-icon icon="ph:arrow-left" aria-hidden="true"></iconify-icon></a>
+        <div class="reader-bar__title">
+          <strong id="readerBookTitle">朝花夕拾</strong>
+          <span id="readerChapterTitle">第一章 · 灯下</span>
+        </div>
+      </div>
+      <div class="reader-bar__right">
+        <button class="reader-tool" type="button" data-drawer="toc"><iconify-icon icon="ph:list" aria-hidden="true"></iconify-icon><span>目录</span></button>
+        <button class="reader-tool" type="button" data-drawer="notes"><iconify-icon icon="ph:note-pencil" aria-hidden="true"></iconify-icon><span>笔记</span></button>
+        <button class="reader-tool" type="button" data-drawer="stats"><iconify-icon icon="ph:chart-line" aria-hidden="true"></iconify-icon><span>统计</span></button>
+        <button class="reader-tool" type="button" id="typeBtn"><iconify-icon icon="ph:text-aa" aria-hidden="true"></iconify-icon><span>字号</span></button>
+        <button class="reader-tool" type="button" id="themeBtn"><iconify-icon icon="ph:moon" aria-hidden="true"></iconify-icon><span>主题</span></button>
+        <button class="reader-tool" type="button" id="bookmarkBtn"><iconify-icon icon="ph:bookmark-simple" aria-hidden="true"></iconify-icon><span>书签</span></button>
+      </div>
+      <div class="reader-bar__line" id="readerBarLine"></div>
+    </header>
+
+    <div class="reader-scrim" id="readerScrim"></div>
+
+    <aside class="reader-drawer reader-drawer--left" id="drawerToc" aria-label="目录">
+      <div class="drawer-head">
+        <div><h2>目录</h2><p>演示样章 · 4 节</p></div>
+        <button class="drawer-close" type="button" data-close-drawer aria-label="关闭目录"><iconify-icon icon="ph:x" aria-hidden="true"></iconify-icon></button>
+      </div>
+      <div class="drawer-body">
+        <div class="toc-book" id="tocBook"></div>
+        <div class="toc-list" id="tocList"></div>
+        <div class="toc-foot">
+          <div class="toc-progress"><span>阅读进度</span><span>继续</span></div>
+          <div class="toc-progress__track"><i></i></div>
+          <a class="btn btn--ghost btn--sm" id="tocBookLink" href="book.html">返回书籍详情</a>
+        </div>
+      </div>
+    </aside>
+
+    <aside class="reader-drawer reader-drawer--right" id="drawerNotes" aria-label="笔记">
+      <div class="drawer-head">
+        <div><h2>笔记</h2><p>划线、想法与出处</p></div>
+        <button class="drawer-close" type="button" data-close-drawer aria-label="关闭笔记"><iconify-icon icon="ph:x" aria-hidden="true"></iconify-icon></button>
+      </div>
+      <div class="drawer-tabs">
+        <button class="drawer-tab is-active" type="button" data-note-tab="notes">笔记</button>
+        <button class="drawer-tab" type="button" data-note-tab="highlights">划线</button>
+      </div>
+      <div class="drawer-body" id="notesBody"></div>
+      <div class="note-compose" id="noteCompose">
+        <div class="note-entry__quote" id="pendingQuote" hidden></div>
+        <label class="sr-only" for="noteInput">写笔记</label>
+        <textarea class="textarea" id="noteInput" placeholder="写下你的想法…"></textarea>
+        <button class="btn btn--sm" type="button" id="saveNote">保存笔记</button>
+      </div>
+    </aside>
+
+    <aside class="reader-drawer reader-drawer--right" id="drawerStats" aria-label="阅读统计">
+      <div class="drawer-head">
+        <div><h2>阅读统计</h2><p>本次阅读与本书进度</p></div>
+        <button class="drawer-close" type="button" data-close-drawer aria-label="关闭统计"><iconify-icon icon="ph:x" aria-hidden="true"></iconify-icon></button>
+      </div>
+      <div class="drawer-body">
+        <div class="stat-grid">
+          <div class="stat-tile"><strong id="statSession">1</strong><span>本次阅读（分钟）</span></div>
+          <div class="stat-tile"><strong id="statPercent">0%</strong><span>本书进度</span></div>
+          <div class="stat-tile"><strong id="statNotes">0</strong><span>本书笔记</span></div>
+          <div class="stat-tile"><strong id="statHighlights">0</strong><span>本书划线</span></div>
+        </div>
+
+        <div class="stat-section">
+          <h3>本周阅读</h3>
+          <div class="stat-week" id="statWeek"></div>
+          <p class="stat-caption">共 313 分钟 · 比上周多 18%</p>
+        </div>
+
+        <div class="stat-section">
+          <h3>本书状态</h3>
+          <ul class="stat-list">
+            <li><span>开始阅读</span><span id="statStarted">刚刚</span></li>
+            <li><span>书签</span><span id="statBookmark">未收藏</span></li>
+            <li><span>本章预计</span><span>约 6 分钟</span></li>
+          </ul>
+        </div>
+
+        <div class="stat-section">
+          <a class="btn btn--ghost btn--sm" id="statBack" href="book.html">返回书目</a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="reader-main">
+      <article class="reader-article" id="readerArticle">
+        <div class="reader-kicker"><span>墨阅 · 样章</span><span class="demo-badge">演示文本</span></div>
+        <h1 class="reader-title" id="articleTitle">灯下</h1>
+        <p class="reader-subtitle" id="articleSubtitle">《朝花夕拾》 · 第一章 · 演示样章</p>
+        <div class="reader-meta" id="articleMeta"></div>
+        <div class="reader-notice">说明：本页正文为平台原创演示文本，用于展示阅读器排版、划线、笔记与阅读统计；正式版接入授权内容后替换。</div>
+        <div class="reader-content" id="readerContent"></div>
+        <div class="reader-end">
+          <h3>这一章读完了</h3>
+          <p>书不会催人。你可以把书签留在这里，明天再回来。</p>
+          <div class="reader-end__actions">
+            <button class="btn btn--ghost" type="button" id="endNext">下一章</button>
+            <button class="btn btn--ghost" type="button" id="endNote">写一条笔记</button>
+            <a class="btn btn--accent" id="endBack" href="book.html">返回书目</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <div class="reader-float" aria-hidden="true">
+      <span class="reader-float__pct" id="floatPct">0%</span>
+      <span class="reader-float__track"><i id="floatBar"></i></span>
+    </div>
+
+    <div class="reader-controls" id="typePanel">
+      <div class="reader-controls__row">
+        <span class="reader-controls__label">字号</span>
+        <div class="reader-controls__group">
+          <button type="button" data-font="-1" aria-label="缩小字号">A−</button>
+          <button type="button" data-font="0" aria-label="恢复默认字号">19</button>
+          <button type="button" data-font="1" aria-label="放大字号">A+</button>
+        </div>
+      </div>
+      <div class="reader-controls__row">
+        <span class="reader-controls__label">行距</span>
+        <div class="reader-controls__group">
+          <button type="button" data-lh="1.8">紧</button>
+          <button type="button" data-lh="2" class="is-active">标准</button>
+          <button type="button" data-lh="2.2">松</button>
+        </div>
+      </div>
+      <div class="reader-controls__row">
+        <span class="reader-controls__label">主题</span>
+        <div class="theme-swatches">
+          <button class="theme-swatch is-active" type="button" data-reader-theme="paper" aria-label="纸白主题"></button>
+          <button class="theme-swatch" type="button" data-reader-theme="sepia" aria-label="米黄主题"></button>
+          <button class="theme-swatch" type="button" data-reader-theme="night" aria-label="夜间主题"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="selection-pop" id="selectionPop" role="toolbar" aria-label="选中文字操作">
+      <button type="button" data-sel="highlight"><iconify-icon icon="ph:highlighter" aria-hidden="true"></iconify-icon>划线</button>
+      <button type="button" data-sel="note"><iconify-icon icon="ph:note-pencil" aria-hidden="true"></iconify-icon>记笔记</button>
+      <button type="button" data-sel="copy"><iconify-icon icon="ph:copy" aria-hidden="true"></iconify-icon>复制</button>
+    </div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/vendor/iconify-icon.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/reader.js"></script>
+</body>
+</html>

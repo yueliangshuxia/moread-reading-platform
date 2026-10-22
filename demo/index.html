@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>墨阅 MoRead · 把书读成自己的</title>
+  <meta name="description" content="墨阅是一个把找书、读书、记书连在一起的数字阅读平台。混合推荐、在线阅读、共读社区与阅读笔记。">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    try { if (localStorage.getItem("moread.theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body data-page="home" data-chrome="full">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div id="site-rail"></div>
+
+  <div class="app">
+    <main class="main" id="main">
+
+      <section class="hero">
+        <div class="hero__copy">
+          <p class="kicker">为深度阅读而做的数字书房</p>
+          <h1 class="hero__title"><span>把书</span><span>读成自己的</span></h1>
+          <p class="hero__lede">从一本对的书开始。墨阅用混合推荐理解你的口味，用共读、划线和笔记，陪你把一本书真正读完。</p>
+          <form class="hero__search" id="heroSearch" role="search">
+            <label class="sr-only" for="heroSearchInput">搜索书籍</label>
+            <div class="search-box">
+              <iconify-icon icon="ph:magnifying-glass" aria-hidden="true"></iconify-icon>
+              <input id="heroSearchInput" type="search" placeholder="搜索书名、作者，或一句你记得的话" autocomplete="off">
+            </div>
+            <button class="btn btn--accent" type="submit">找书</button>
+          </form>
+          <div class="hero__tags">
+            <span>试试</span>
+            <a class="tag" href="discover.html?q=鲁迅">鲁迅</a>
+            <a class="tag" href="discover.html?cat=prose">散文</a>
+            <a class="tag" href="discover.html?cat=scifi">科幻</a>
+            <a class="tag" href="community.html">本周共读</a>
+            <a class="tag" href="discover.html?q=通勤">适合通勤</a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat"><strong>3,240</strong><span>位读者在这里记录阅读</span></div>
+            <div class="hero__stat"><strong>27</strong><span>本精选与原创书目</span></div>
+            <div class="hero__stat"><strong>1.2 万</strong><span>条划线、笔记与书评</span></div>
+          </div>
+        </div>
+
+        <div class="hero-shelf">
+          <div class="shelf-head">
+            <h2>本周书架</h2>
+            <button type="button" id="shuffleShelf"><iconify-icon icon="ph:arrows-clockwise" aria-hidden="true"></iconify-icon> 换一批</button>
+          </div>
+          <div class="shelf-stage">
+            <div class="shelf" id="heroShelf"></div>
+          </div>
+          <div class="shelf-base"></div>
+          <div class="shelf-caption">
+            <span>悬停看书名，点击进入详情</span>
+            <span>本期由 6 位编辑选出</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="recTitle">
+        <header class="section-head">
+          <div class="section-head__main">
+            <p class="kicker">为你挑选</p>
+            <h2 class="h2" id="recTitle">今天读什么</h2>
+          </div>
+          <p class="section-head__note">依据你的阅读记录、书架与相似读者的选择生成。每天 6:00 更新，推荐理由随书附上。</p>
+        </header>
+        <div class="rec-layout">
+          <div class="rec-feature" id="recFeature"></div>
+          <div class="rec-list" id="recList"></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="newTitle">
+        <header class="section-head">
+          <div class="section-head__main">
+            <p class="kicker">新书上架</p>
+            <h2 class="h2" id="newTitle">刚刚放进书房的书</h2>
+          </div>
+          <p class="section-head__note">站内原创与公版经典，每周三更新。横向滑动查看更多。</p>
+        </header>
+        <div class="book-strip" id="newBooks"></div>
+      </section>
+
+      <section class="section" aria-labelledby="listTitle">
+        <header class="section-head">
+          <div class="section-head__main">
+            <p class="kicker">编辑书单</p>
+            <h2 class="h2" id="listTitle">按一种心情，找一组书</h2>
+          </div>
+          <p class="section-head__note">书单由编辑与读者共同维护。点进去，看看这一组书为什么被放在一起。</p>
+        </header>
+        <div class="booklist-grid" id="booklists"></div>
+      </section>
+
+      <section class="section" aria-labelledby="catTitle">
+        <header class="section-head">
+          <div class="section-head__main">
+            <p class="kicker">分类书架</p>
+            <h2 class="h2" id="catTitle">按此刻想读的东西找</h2>
+          </div>
+          <p class="section-head__note">不按热度，不按榜单。按你现在真正关心的那件事。</p>
+        </header>
+        <div class="cat-grid" id="categoryGrid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="coReadTitle">
+        <div class="co-read">
+          <div class="co-read__copy">
+            <p class="kicker">本周共读 · 第 18 期</p>
+            <h2 id="coReadTitle">《呼兰河传》：一个人如何写自己的故乡</h2>
+            <p>本周我们一起读萧红。每晚八点共读室开放，周日晚上有一次线上讨论。读不完也没关系，带着你停下来的那一页来就好。</p>
+            <div class="co-read__meta">
+              <span class="avatar-group" aria-hidden="true">
+                <span class="avatar avatar--1">林</span><span class="avatar avatar--0">周</span><span class="avatar avatar--4">苏</span><span class="avatar avatar--2">满</span>
+              </span>
+              <span>36 人已加入</span>
+              <span class="co-read__progress" aria-hidden="true"><i></i></span>
+              <span>共读进度 62%</span>
+            </div>
+            <div class="row gap-10 wrap">
+              <a class="btn btn--accent" href="community.html">加入共读</a>
+              <a class="btn btn--ghost" href="book.html?id=hulanhezhuan">查看书目</a>
+            </div>
+          </div>
+          <div class="co-read__image">
+            <img src="assets/img/pexels/reading-tea.jpg" alt="桌上一杯茶与摊开的书">
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="noteTitle">
+        <header class="section-head">
+          <div class="section-head__main">
+            <p class="kicker">读者笔记</p>
+            <h2 class="h2" id="noteTitle">从书页边角长出来的句子</h2>
+          </div>
+          <p class="section-head__note">所有笔记都来自读者的真实划线（演示数据），标注了页码与出处。</p>
+        </header>
+        <div class="note-grid" id="noteGrid"></div>
+      </section>
+
+      <section class="discover-cta" aria-labelledby="ctaTitle">
+        <div class="discover-cta__inner">
+          <p class="kicker">下一本</p>
+          <h2 id="ctaTitle">不知道读什么的时候，先说说你最近在想什么。</h2>
+          <p>搜索一个词、一个人，或者一种情绪。墨阅会从 27 本书里，找出最接近的那几本。</p>
+          <form id="ctaSearch" role="search">
+            <label class="sr-only" for="ctaSearchInput">搜索书籍</label>
+            <div class="search-box">
+              <iconify-icon icon="ph:magnifying-glass" aria-hidden="true"></iconify-icon>
+              <input id="ctaSearchInput" type="search" placeholder="比如：故乡、独处、科幻、鲁迅" autocomplete="off">
+            </div>
+          </form>
+          <div class="row gap-10 wrap">
+            <a class="btn btn--accent" href="discover.html">浏览全部书库</a>
+            <a class="btn btn--ghost" href="login.html">登录 / 注册</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <div id="site-footer"></div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/vendor/iconify-icon.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>页面未找到 · 墨阅 MoRead</title>
+  <meta name="description" content="这一页还没有被写下来。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    try { if (localStorage.getItem("moread.theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body data-page="404" data-chrome="full">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div id="site-rail"></div>
+
+  <div class="app">
+    <main class="main" id="main">
+      <section class="notfound">
+        <img src="assets/img/undraw/searching-everywhere_tffi.svg" alt="在地球仪上寻找一本书">
+        <p class="kicker">404 · 页面未找到</p>
+        <h1>这一页还没有被写下来</h1>
+        <p>可能是链接换了位置，也可能是这本书还在路上。你可以回到书架，或者从书库重新找一本。</p>
+        <div class="notfound__actions">
+          <a class="btn btn--accent" href="index.html">回到首页</a>
+          <a class="btn btn--ghost" href="discover.html">去书库</a>
+        </div>
+        <form id="notFoundSearch" role="search" style="width:min(420px,100%);margin-top:8px">
+          <label class="sr-only" for="notFoundInput">搜索书籍</label>
+          <div class="search-box">
+            <iconify-icon icon="ph:magnifying-glass" aria-hidden="true"></iconify-icon>
+            <input id="notFoundInput" type="search" placeholder="搜索书名、作者或标签" autocomplete="off">
+          </div>
+        </form>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/vendor/iconify-icon.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    document.getElementById("notFoundSearch").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var q = document.getElementById("notFoundInput").value.trim();
+      window.location.href = "discover.html" + (q ? "?q=" + encodeURIComponent(q) : "");
+    });
+  </script>
+</body>
+</html>

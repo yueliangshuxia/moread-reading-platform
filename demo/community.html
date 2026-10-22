@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>共读 · 墨阅 MoRead</title>
+  <meta name="description" content="墨阅共读社区：本周共读、书评、摘录与提问。和读者一起把一本书读深。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    try { if (localStorage.getItem("moread.theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body data-page="community" data-chrome="full">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div id="site-rail"></div>
+
+  <div class="app">
+    <main class="main" id="main">
+      <header class="page-head">
+        <div class="page-head__main">
+          <p class="kicker">读者的客厅</p>
+          <h1>共读</h1>
+          <p class="page-head__meta">本周 36 人一起读《呼兰河传》 · 128 条新讨论 · 不剧透，不催促</p>
+        </div>
+        <div class="page-head__aside">
+          <button class="btn btn--accent" type="button" data-open-composer><iconify-icon icon="ph:plus" aria-hidden="true"></iconify-icon> 发起讨论</button>
+        </div>
+      </header>
+
+      <section style="padding-top:28px" aria-label="本周共读">
+        <div class="community-feature">
+          <div class="community-feature__copy">
+            <p class="kicker">本周共读 · 第 18 期</p>
+            <h2>《呼兰河传》：一个人如何写自己的故乡</h2>
+            <p>本周我们一起读萧红。每晚八点共读室开放，周日晚上有一次线上讨论。读不完也没关系，带着你停下来的那一页来就好。</p>
+            <div class="community-feature__meta">
+              <span class="avatar-group" aria-hidden="true">
+                <span class="avatar avatar--1">林</span><span class="avatar avatar--0">周</span><span class="avatar avatar--4">苏</span><span class="avatar avatar--2">满</span>
+              </span>
+              <span>36 人已加入</span><span>还剩 3 天</span>
+            </div>
+            <div class="row gap-10 wrap" style="margin-top:6px">
+              <a class="btn btn--accent btn--sm" href="book.html?id=hulanhezhuan">查看书目</a>
+              <a class="btn btn--ghost btn--sm" href="reader.html?id=hulanhezhuan">开始阅读</a>
+            </div>
+          </div>
+          <div class="community-feature__image">
+            <img src="assets/img/pexels/reading-window.jpg" alt="窗边读书的人">
+          </div>
+        </div>
+      </section>
+
+      <div class="community-layout">
+        <div class="community-main">
+          <div class="community-toolbar">
+            <div class="filter-chips" id="topicChips" role="group" aria-label="按话题筛选"></div>
+          </div>
+          <div id="postFeed"></div>
+        </div>
+
+        <aside class="community-side">
+          <section class="side-panel">
+            <h3>本周书目 <span>第 18 期</span></h3>
+            <div class="side-book" id="sideBook"></div>
+          </section>
+          <section class="side-panel">
+            <h3>活跃读者 <span>本周</span></h3>
+            <div id="activeReaders"></div>
+          </section>
+          <section class="side-panel">
+            <h3>社区公约</h3>
+            <ul class="side-note">
+              <li>写具体的感受，不写“好看”“一般”。</li>
+              <li>讨论章节时提前标注剧透范围。</li>
+              <li>可以不同意，但不要否定别人的阅读。</li>
+              <li>引用请注明书名与页码。</li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+    </main>
+    <div id="site-footer"></div>
+  </div>
+
+  <div class="modal" id="composerModal" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="composerTitle">
+      <div class="modal__head">
+        <div><h2 id="composerTitle">发起讨论</h2><p>分享一个想法、一段摘录，或者一个没有想明白的问题。</p></div>
+        <button class="icon-btn modal__close" type="button" data-close-modal aria-label="关闭"><iconify-icon icon="ph:x" aria-hidden="true"></iconify-icon></button>
+      </div>
+      <form id="composerForm" class="stack gap-16">
+        <div class="grid grid--2" style="gap:12px">
+          <div class="field">
+            <label for="postTopic">话题</label>
+            <select class="select" id="postTopic">
+              <option value="本周共读">本周共读</option>
+              <option value="书评">书评</option>
+              <option value="摘录">摘录</option>
+              <option value="提问">提问</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="postBook">关联书目</label>
+            <select class="select" id="postBook"></select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="postText">内容</label>
+          <textarea class="textarea" id="postText" maxlength="500" placeholder="写下你正在想的那一段…"></textarea>
+          <span class="field__hint">最多 500 字。引用请注明书名与页码。</span>
+        </div>
+        <div class="row between wrap gap-10">
+          <span class="tiny muted">演示版讨论仅保存在当前页面。</span>
+          <button class="btn btn--accent" type="submit">发布讨论</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="commentsModal" hidden>
+    <div class="modal__backdrop" data-close-comments></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="commentsTitle">
+      <div class="modal__head">
+        <div><h2 id="commentsTitle">回应</h2><p id="commentsSub">看看大家在讨论什么</p></div>
+        <button class="icon-btn modal__close" type="button" data-close-comments aria-label="关闭"><iconify-icon icon="ph:x" aria-hidden="true"></iconify-icon></button>
+      </div>
+      <div id="commentsPost"></div>
+      <div class="comment-list" id="commentList"></div>
+      <form class="comment-form" id="commentForm">
+        <label class="sr-only" for="commentInput">写下回应</label>
+        <textarea class="textarea" id="commentInput" maxlength="300" placeholder="写下你的回应…"></textarea>
+        <button class="btn btn--accent btn--sm" type="submit">发送</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/vendor/iconify-icon.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/community.js"></script>
+</body>
+</html>

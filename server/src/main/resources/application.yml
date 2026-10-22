@@ -1,0 +1,56 @@
+server:
+  # 本地默认 8080；Render/Railway 会注入 PORT
+  port: ${PORT:8080}
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
+spring:
+  application:
+    name: moread-server
+
+  datasource:
+    # createDatabaseIfNotExist=true：第一次启动自动建库，换机器只要 MySQL 在跑即可。
+    url: jdbc:mysql://localhost:3306/moread?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:123456}
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 5000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: Asia/Shanghai
+    show-sql: false
+
+  sql:
+    init:
+      mode: never
+
+  jackson:
+    default-property-inclusion: non_null
+
+  mvc:
+    problemdetails:
+      enabled: false
+
+moread:
+  jwt:
+    # HS256 要求至少 256 位（32 字节）。正式部署请用环境变量覆盖。
+    secret: ${JWT_SECRET:moread-reading-platform-graduation-project-dev-secret-key-do-not-use-in-production}
+    expire-hours: 168
+  seed:
+    enabled: true
+  cors:
+    allowed-origins: http://localhost:5173,http://127.0.0.1:5173,http://localhost:8000,http://127.0.0.1:8000,http://127.0.0.1:8765
+
+logging:
+  level:
+    root: INFO
+    com.moread: INFO

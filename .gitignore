@@ -1,0 +1,29 @@
+# Java / Maven
+server/target/
+*.class
+
+# 本机使用的 Maven（11MB，按需从 .tooling 复制，不建议提交）
+.tooling/
+
+# 日志
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 未来 Vue 前端的依赖与构建产物
+node_modules/
+dist/
+
+# 临时文件
+.tmp/
+
+# 打包产物 / 演示数据（不上传 GitHub）
+release/
+data/
+cloudflared*
+.reference_doc.txt
+server/src/main/resources/static/
+web/.env

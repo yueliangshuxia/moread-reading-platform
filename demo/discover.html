@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>书库 · 墨阅 MoRead</title>
+  <meta name="description" content="浏览墨阅书库：文学经典、当代小说、诗歌散文、人文社科等分类，按评分、热度与出版时间筛选。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    try { if (localStorage.getItem("moread.theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body data-page="discover" data-chrome="full">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div id="site-rail"></div>
+
+  <div class="app">
+    <main class="main" id="main">
+      <header class="page-head">
+        <div class="page-head__main">
+          <p class="kicker">全部藏书</p>
+          <h1>书库</h1>
+          <p class="page-head__meta">27 本书 · 8 个分类 · 推荐每天 6:00 更新 · 支持按书名、作者与标签检索</p>
+        </div>
+        <div class="page-head__aside">
+          <div class="search-box" style="width:280px;max-width:100%">
+            <iconify-icon icon="ph:magnifying-glass" aria-hidden="true"></iconify-icon>
+            <label class="sr-only" for="librarySearch">搜索书库</label>
+            <input id="librarySearch" type="search" placeholder="搜索书名、作者或标签" autocomplete="off">
+          </div>
+        </div>
+      </header>
+
+      <div id="listBanner"></div>
+
+      <div class="filter-bar">
+        <div class="filter-chips" id="categoryChips" role="group" aria-label="按分类筛选"></div>
+        <div class="filter-tools">
+          <label class="switch" title="只看可免费阅读的书">
+            <input id="freeOnly" type="checkbox">
+            <span class="switch__track"><span class="switch__thumb"></span></span>
+            <span>仅免费</span>
+          </label>
+          <label class="sr-only" for="sortSelect">排序方式</label>
+          <select class="select" id="sortSelect">
+            <option value="recommend">推荐排序</option>
+            <option value="rating">评分最高</option>
+            <option value="readers">读者最多</option>
+            <option value="year">出版最新</option>
+          </select>
+          <div class="view-toggle" role="group" aria-label="视图切换">
+            <button type="button" class="is-active" data-view="grid" aria-label="网格视图"><iconify-icon icon="ph:columns" aria-hidden="true"></iconify-icon></button>
+            <button type="button" data-view="list" aria-label="列表视图"><iconify-icon icon="ph:rows" aria-hidden="true"></iconify-icon></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="result-meta">
+        <span id="resultSummary">全部书目</span>
+        <span>共 <strong id="resultCount">27</strong> 本</span>
+      </div>
+
+      <div class="book-grid" id="bookResults"></div>
+    </main>
+    <div id="site-footer"></div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/vendor/iconify-icon.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/discover.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:moread;MODE=MySQL;DB_CLOSE_DELAY=-1;DATABASE_TO_LOWER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  sql:
+    init:
+      mode: never
+
+moread:
+  jwt:
+    secret: moread-reading-platform-test-secret-key-at-least-32-bytes-long
+    expire-hours: 2
+  seed:
+    enabled: true

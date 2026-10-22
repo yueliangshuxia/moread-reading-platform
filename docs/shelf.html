@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的书架 · 墨阅 MoRead</title>
+  <meta name="description" content="管理在读、想读与读完的书，查看阅读进度与每周阅读时长。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    try { if (localStorage.getItem("moread.theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body data-page="shelf" data-chrome="full">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div id="site-rail"></div>
+
+  <div class="app">
+    <main class="main" id="main">
+      <header class="page-head">
+        <div class="page-head__main">
+          <p class="kicker">你的阅读现场</p>
+          <h1>我的书架</h1>
+          <p class="page-head__meta" id="shelfMeta">2 本在读 · 3 本想读 · 2 本读完</p>
+        </div>
+        <div class="page-head__aside">
+          <button class="btn btn--quiet btn--sm" type="button" id="manageShelf"><iconify-icon icon="ph:sliders-horizontal" aria-hidden="true"></iconify-icon> 管理书架</button>
+          <a class="btn btn--ghost btn--sm" href="discover.html">去书库</a>
+        </div>
+      </header>
+
+      <section style="padding-top:26px" aria-label="继续阅读">
+        <div id="continueCard" class="continue-card"></div>
+      </section>
+
+      <div class="shelf-tabs-row">
+        <div class="tabs" id="shelfTabs" role="tablist" aria-label="书架分类"></div>
+        <div class="shelf-toolbar">
+          <button class="btn btn--quiet btn--sm" type="button" id="sortShelf"><iconify-icon icon="ph:arrows-clockwise" aria-hidden="true"></iconify-icon> 最近阅读</button>
+        </div>
+      </div>
+
+      <div class="shelf-grid" id="shelfGrid"></div>
+
+      <section class="shelf-stats" aria-labelledby="statsTitle">
+        <div>
+          <div class="shelf-stats__head">
+            <h3 id="statsTitle">本周阅读</h3>
+            <span>共 313 分钟 · 比上周多 18%</span>
+          </div>
+          <div class="week-bars" id="weekBars" role="img" aria-label="本周每天的阅读时长柱状图"></div>
+          <details class="chart-data" style="margin-top:12px">
+            <summary>查看数据表</summary>
+            <div id="weekTable"></div>
+          </details>
+        </div>
+        <div class="shelf-stats__side">
+          <div>
+            <div class="big">128<span class="small muted" style="font-family:var(--sans);font-size:12px"> 小时</span></div>
+            <p class="muted">累计阅读时长 · 超过 82% 的读者</p>
+          </div>
+          <div class="row gap-24 wrap">
+            <div><strong style="font-family:var(--serif);font-size:22px">23</strong><div class="small muted">连续阅读天数</div></div>
+            <div><strong style="font-family:var(--serif);font-size:22px">12</strong><div class="small muted">今年读完</div></div>
+          </div>
+          <img src="assets/img/undraw/reading-time_jva3.svg" alt="一个人在阅读计时器旁读书" loading="lazy">
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/vendor/iconify-icon.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/shelf.js"></script>
+  <script>
+    document.getElementById("manageShelf").addEventListener("click", function () { MOREAD.toast("管理书架：演示版支持逐本移除", "sliders-horizontal"); });
+    document.getElementById("sortShelf").addEventListener("click", function () { MOREAD.toast("已按最近阅读排序", "arrows-clockwise"); });
+  </script>
+</body>
+</html>

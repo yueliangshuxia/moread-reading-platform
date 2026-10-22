@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>书籍详情 · 墨阅 MoRead</title>
+  <meta name="description" content="查看书籍简介、目录、书评与推荐理由。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    try { if (localStorage.getItem("moread.theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body data-page="book" data-chrome="full">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div id="site-rail"></div>
+
+  <div class="app">
+    <main class="main" id="main">
+      <div id="bookHero"></div>
+
+      <div class="book-body">
+        <div class="book-main">
+          <div class="tabs" role="tablist" aria-label="书籍信息">
+            <button class="tab is-active" type="button" data-tab="intro" role="tab">简介</button>
+            <button class="tab" type="button" data-tab="toc" role="tab">目录 <span class="tab__count">12</span></button>
+            <button class="tab" type="button" data-tab="reviews" role="tab">书评 <span class="tab__count">1</span></button>
+            <button class="tab" type="button" data-tab="related" role="tab">相关推荐</button>
+          </div>
+
+          <section class="tab-panel is-active" id="panel-intro" role="tabpanel"></section>
+          <section class="tab-panel" id="panel-toc" role="tabpanel"></section>
+          <section class="tab-panel" id="panel-reviews" role="tabpanel"></section>
+          <section class="tab-panel" id="panel-related" role="tabpanel"></section>
+        </div>
+
+        <aside class="book-aside" id="bookAside"></aside>
+      </div>
+    </main>
+    <div id="site-footer"></div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/vendor/iconify-icon.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/book.js"></script>
+</body>
+</html>

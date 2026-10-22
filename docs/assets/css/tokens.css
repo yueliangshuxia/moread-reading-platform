@@ -1,0 +1,125 @@
+/* =========================================================
+   墨阅 MoRead — design tokens
+   Direction: 书房索引 / private reading room
+   ========================================================= */
+
+:root {
+  color-scheme: light;
+
+  /* paper & ink */
+  --paper: #e9eae2;
+  --paper-2: #f3f3ec;
+  --paper-3: #dfe1d6;
+  --paper-4: #d2d5c8;
+  --ink: #17211d;
+  --ink-2: #2c3833;
+  --muted: #65726b;
+  --muted-2: #8a958e;
+
+  /* book cloth & metal */
+  --bottle: #24443a;
+  --bottle-2: #2f5a4c;
+  --bottle-3: #6f9585;
+  --oxblood: #8c3a32;
+  --oxblood-2: #a24a3a;
+  --brass: #a98b4f;
+  --brass-2: #c6a86a;
+  --fog: #c7cbbf;
+
+  /* semantic */
+  --line: rgba(23, 33, 29, 0.14);
+  --line-strong: rgba(23, 33, 29, 0.28);
+  --line-soft: rgba(23, 33, 29, 0.07);
+  --shadow-cover: 0 18px 36px -24px rgba(23, 33, 29, 0.55);
+  --shadow-cover-lg: 0 34px 70px -38px rgba(23, 33, 29, 0.65);
+  --shadow-panel: 0 30px 80px -50px rgba(23, 33, 29, 0.55);
+  --scrim: rgba(15, 23, 20, 0.58);
+
+  /* fixed dark surfaces (rail, admin side, feature bands) */
+  --night: #17211d;
+  --night-2: #1e2a25;
+  --night-ink: #e9eae2;
+  --night-muted: rgba(233, 234, 226, 0.62);
+  --night-line: rgba(233, 234, 226, 0.18);
+
+  /* charts (single-series + sequential) */
+  --chart-hue: #2f5a4c;
+  --chart-hue-soft: rgba(47, 90, 76, 0.16);
+  --chart-accent: #8c3a32;
+  --chart-grid: rgba(23, 33, 29, 0.12);
+  --chart-axis: rgba(23, 33, 29, 0.34);
+  --chart-label: #4e5b54;
+  --heat-0: #dfe1d6;
+  --heat-1: #cdd8cd;
+  --heat-2: #a9c0b3;
+  --heat-3: #77a08c;
+  --heat-4: #2f5a4c;
+
+  /* type */
+  --serif: "Noto Serif SC", "STZhongsong", "Songti SC", "SimSun", serif;
+  --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+  --kai: "KaiTi", "STKaiti", "Kaiti SC", "Noto Serif SC", serif;
+
+  /* metrics */
+  --rail: 76px;
+  --topbar: 72px;
+  --max: 1280px;
+  --gutter: 40px;
+  --radius: 2px;
+  --radius-lg: 4px;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* type scale */
+  --fs-xs: 11px;
+  --fs-sm: 13px;
+  --fs-base: 15px;
+  --fs-md: 17px;
+  --fs-lg: 21px;
+  --fs-xl: 28px;
+  --fs-2xl: 38px;
+  --fs-3xl: clamp(44px, 5.6vw, 76px);
+  --fs-4xl: clamp(56px, 8vw, 112px);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --paper: #0f1714;
+  --paper-2: #131d19;
+  --paper-3: #192521;
+  --paper-4: #22312b;
+  --ink: #e6e8de;
+  --ink-2: #c8cec3;
+  --muted: #99a59c;
+  --muted-2: #77847c;
+
+  --bottle: #2f5a4c;
+  --bottle-2: #3d6d5c;
+  --bottle-3: #9ab9aa;
+  --oxblood: #b55a4a;
+  --oxblood-2: #c96d5b;
+  --brass: #c6a86a;
+  --brass-2: #d8bd85;
+  --fog: #33403a;
+
+  --line: rgba(230, 232, 222, 0.15);
+  --line-strong: rgba(230, 232, 222, 0.32);
+  --line-soft: rgba(230, 232, 222, 0.08);
+  --shadow-cover: 0 18px 36px -24px rgba(0, 0, 0, 0.85);
+  --shadow-cover-lg: 0 34px 70px -38px rgba(0, 0, 0, 0.95);
+  --shadow-panel: 0 30px 80px -50px rgba(0, 0, 0, 0.9);
+  --scrim: rgba(3, 7, 5, 0.72);
+
+  --chart-hue: #8fb8a5;
+  --chart-hue-soft: rgba(143, 184, 165, 0.2);
+  --chart-accent: #c96d5b;
+  --chart-grid: rgba(230, 232, 222, 0.13);
+  --chart-axis: rgba(230, 232, 222, 0.36);
+  --chart-label: #b6c0b7;
+  --heat-0: #1b2823;
+  --heat-1: #253a31;
+  --heat-2: #385a4b;
+  --heat-3: #5c8573;
+  --heat-4: #a8c9b8;
+}

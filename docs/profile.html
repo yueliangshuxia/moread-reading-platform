@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>个人中心 · 墨阅 MoRead</title>
+  <meta name="description" content="查看阅读记录、笔记、书评与成就，了解自己的阅读偏好。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    try { if (localStorage.getItem("moread.theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body data-page="profile" data-chrome="full">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div id="site-rail"></div>
+
+  <div class="app">
+    <main class="main" id="main">
+      <header class="profile-head">
+        <span class="avatar avatar--1">林</span>
+        <div class="profile-head__main">
+          <h1>林见鹿</h1>
+          <p class="profile-head__handle">@linjianlu · 2024 年 3 月加入</p>
+          <p class="profile-head__bio">在出版社做编辑，读得慢，记得多。相信一本书应该在合适的时候遇见，而不是在榜单上。</p>
+        </div>
+        <div class="profile-head__actions">
+          <button class="btn btn--ghost btn--sm" type="button" id="editProfile"><iconify-icon icon="ph:pencil-simple" aria-hidden="true"></iconify-icon> 编辑资料</button>
+          <button class="btn btn--quiet btn--sm" type="button" id="logoutBtn"><iconify-icon icon="ph:sign-out" aria-hidden="true"></iconify-icon> 退出</button>
+        </div>
+      </header>
+
+      <div class="profile-stats">
+        <div class="profile-stat"><strong>128</strong><span>累计阅读（小时）</span></div>
+        <div class="profile-stat"><strong>12</strong><span>今年读完</span></div>
+        <div class="profile-stat"><strong>86</strong><span>笔记与划线</span></div>
+        <div class="profile-stat"><strong>23</strong><span>连续阅读天数</span></div>
+      </div>
+
+      <div class="profile-layout">
+        <div class="profile-main">
+          <div class="tabs" role="tablist" aria-label="个人内容">
+            <button class="tab is-active" type="button" data-profile-tab="records" role="tab">阅读记录</button>
+            <button class="tab" type="button" data-profile-tab="notes" role="tab">我的笔记</button>
+            <button class="tab" type="button" data-profile-tab="reviews" role="tab">我的书评</button>
+            <button class="tab" type="button" data-profile-tab="achievements" role="tab">成就</button>
+          </div>
+
+          <section class="tab-panel is-active" id="panel-records" role="tabpanel" style="padding-top:18px"></section>
+          <section class="tab-panel" id="panel-notes" role="tabpanel" style="padding-top:18px"></section>
+          <section class="tab-panel" id="panel-reviews" role="tabpanel" style="padding-top:18px"></section>
+          <section class="tab-panel" id="panel-achievements" role="tabpanel" style="padding-top:18px"></section>
+        </div>
+
+        <aside class="profile-side">
+          <section class="panel">
+            <h3>阅读偏好 <span>近 90 天</span></h3>
+            <div class="viz-bars" id="prefBars"></div>
+            <p style="margin-top:14px">偏好来自阅读时长、完读率与书架构成的加权统计，不包含搜索记录。</p>
+          </section>
+
+          <section class="panel reading-goal">
+            <h3>2026 阅读目标 <span id="goalProgressText">12 / 24 本</span></h3>
+            <div class="goal-ring" id="goalRing" style="--pct:50"><span id="goalPercent">50%</span></div>
+            <p id="goalNote">今年已读完 12 本，还差 12 本。</p>
+            <div class="row between gap-10" style="width:100%;margin-top:2px">
+              <label class="tiny muted" for="goalSelect">调整目标</label>
+              <select class="select" id="goalSelect" style="width:100px;min-height:34px;font-size:12px">
+                <option value="12">12 本</option>
+                <option value="24" selected>24 本</option>
+                <option value="36">36 本</option>
+                <option value="48">48 本</option>
+              </select>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h3>阅读热力图 <span>12 周</span></h3>
+            <div class="month-labels" id="monthLabels"></div>
+            <div class="heatmap" id="heatmap" role="img" aria-label="最近十二周的阅读记录热力图"></div>
+            <div class="heat-legend" style="margin-top:9px"><span>少</span><i style="background:var(--heat-0)"></i><i style="background:var(--heat-1)"></i><i style="background:var(--heat-2)"></i><i style="background:var(--heat-3)"></i><i style="background:var(--heat-4)"></i><span>多</span></div>
+          </section>
+
+          <a class="admin-link-card" href="admin.html">
+            <iconify-icon icon="ph:gear" aria-hidden="true"></iconify-icon>
+            <span><strong>管理后台</strong><span>图书、用户、书评与推荐配置</span></span>
+          </a>
+        </aside>
+      </div>
+    </main>
+    <div id="site-footer"></div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/vendor/iconify-icon.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/profile.js"></script>
+</body>
+</html>
